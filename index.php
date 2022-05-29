@@ -40,7 +40,7 @@
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="45"
