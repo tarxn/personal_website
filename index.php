@@ -11,10 +11,11 @@
             background-image: url('images/1836325.jpg');
             background-size: cover;
             max-height: 300px;
+            
         }
 
         .bg-maroon {
-            background-color: #8C1515 !important
+            background-color: #8c1515 !important
         }
 
         #active_page {
@@ -30,17 +31,27 @@
             display: inline-block;
         }
 
-        .border1 {
+        .border_card {
             border-radius: 1%;
             width: 99.999%;
-    height: auto; 
+            height: auto;
+            background-color: #edebeb;
+        }
+
+        footer {
+            text-align: right;
+            margin: auto;
+            color: rgb(229, 229, 229);
+            position: relative;
+            padding-top: 30px;
+            padding-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="45"
@@ -94,7 +105,7 @@
 
     <!-- Main Content Area -->
     <div class="container my-5 d-grid gap-5">
-        <div class="p-5 border1" style="background-color: #edebeb;">
+        <div class="p-5 border_card">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
@@ -102,7 +113,7 @@
                 dolorem numquam quasi.
             </p>
         </div>
-        <div class="p-5 border">
+        <div class="p-5 border_card">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
@@ -110,7 +121,7 @@
                 dolorem numquam quasi.
             </p>
         </div>
-        <div class="p-5 border">
+        <div class="p-5 border_card">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
@@ -118,15 +129,7 @@
                 dolorem numquam quasi.
             </p>
         </div>
-        <div class="p-5 border">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-                natus iusto fugit id saepe neque rerum magni laudantium accusantium
-                dolorem numquam quasi.
-            </p>
-        </div>
-        <div class="p-5 border">
+        <div class="p-5 border_card">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
@@ -135,6 +138,23 @@
             </p>
         </div>
     </div>
+    <div class="container-fluid" style="background-color: maroon; height: auto;">
+        <div class="container text-white-muted">
+            <footer style="margin-top: 50px;">
+                <p style="font-size: 14px;">abc@xyz.com
+                    sdkvfsfd<br>
+                    sdfljsd<br>
+                    sdjgfh<br>
+                    wsdkhgj<br>
+                </p>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-whatsapp"></i>
+            </footer>
+        </div>
+
+    </div>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
         var nav = document.querySelector('nav');
