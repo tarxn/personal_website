@@ -32,6 +32,10 @@
         .pers_img{
             max-height: 150px;
         }
+        .ppl_img{
+            height:300px;
+            width:auto;
+        }
 
         .border_card {
            
@@ -39,12 +43,12 @@
             height: auto;
             background-color: #edebeb;
         }
-        .left-col, .right-col{
-            width:12.5%;
+        .left-col{
+            width:25%;
             float: left;
         }
         .center-col{
-            width:85%;
+            width:75%;
             float:left;
         }
 
