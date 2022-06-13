@@ -94,7 +94,7 @@
                         <a class="nav-link text-white" href="Research.php">Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Awards & Projects</a>
+                        <a class="nav-link text-white" href="awards_projects.php">Awards & Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Gallery</a>
