@@ -13,13 +13,13 @@ include("header.php");
     <div>
         <div>
             <h4 style>
-                "Name Of Research"
+                Name Of Research
             </h4>
         </div>
         <div class="p-5 border_card">
             <div>
                 <p>
-                    "Research Details"
+                    Research Details
                 </p>
             </div>
 
@@ -42,13 +42,13 @@ include("header.php");
     <div>
         <div>
             <h4 style>
-                "Name Of Research"
+                Name Of Research
             </h4>
         </div>
         <div class="p-5 border_card">
             <div>
                 <p>
-                    "Research Details"
+                    Research Details
                 </p>
             </div>
 
@@ -71,13 +71,13 @@ include("header.php");
     <div>
         <div>
             <h4 style>
-                "Name Of Research"
+                Name Of Research
             </h4>
         </div>
         <div class="p-5 border_card">
             <div>
                 <p>
-                    "Research Details"
+                    Research Details
                 </p>
             </div>
 
