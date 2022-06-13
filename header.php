@@ -30,11 +30,13 @@
         }
         
         .pers_img{
-            max-height: 150px;
+            width:275px;
+            height: auto;
+
         }
         .ppl_img{
             height:300px;
-            width:auto;
+            
         }
 
         .border_card {

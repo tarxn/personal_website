@@ -13,7 +13,7 @@
     <div class="container-fluid my-5 gap-5">
         <div class="p-5 border_card">
             <div class="left-col "  >
-                <img style="height:85px;" src="images/88408.jpg" width="auto" height="45"
+                <img class="pers_img" src="images/stock_woman.jpg"
                 class="d-inline-block align-text-center">
             </div>
             <div class="center-col">
