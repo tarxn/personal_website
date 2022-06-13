@@ -28,10 +28,14 @@
         .inline {
             display: inline-block;
         }
+        
+        .pers_img{
+            max-height: 150px;
+        }
 
         .border_card {
-            border-radius: 1%;
-            width: 99.999%;
+           
+            width: 100%;
             height: auto;
             background-color: #edebeb;
         }
@@ -40,7 +44,7 @@
             float: left;
         }
         .center-col{
-            width:50%;
+            width:85%;
             float:left;
         }
 
@@ -63,7 +67,7 @@
                 <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="45"
                     class="d-inline-block align-text-center"></a>
             <a class="navbar-brand align-text-center" href="#" style="color: white; font-size:25px;"> IIT Delhi <div
-                    class="vl inline"></div> Researcher </a>
+                    class="vl inline"></div> Kavya Dashora </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
