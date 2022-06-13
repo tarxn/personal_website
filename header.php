@@ -85,7 +85,7 @@
                         <a class="nav-link text-white" href="publication.php">Publication</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Research</a>
+                        <a class="nav-link text-white" href="Research.php">Research</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Awards & Projects</a>
