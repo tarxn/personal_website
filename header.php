@@ -66,8 +66,7 @@
             <a class="navbar-brand" href="#">
                 <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="45"
                     class="d-inline-block align-text-center"></a>
-            <a class="navbar-brand align-text-center" href="#" style="color: white; font-size:25px;"> IIT Delhi <div
-                    class="vl inline"></div> Kavya Dashora </a>
+            <a class="navbar-brand align-text-center" href="#" style="color: white; font-size:25px;">Kavya Dashora </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -77,13 +76,16 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">People</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Publication</a>
+                        <a class="nav-link text-white" href="publication.php">Publication</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Research</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Awards & Projects</a>
@@ -91,6 +93,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Gallery</a>
                     </li>
+                    
 
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
