@@ -13,7 +13,7 @@
     <div class="container-fluid my-5 gap-5">
         <div class="p-5 border_card">
             <div class="left-col "  >
-                <img class="pers_img" src="images/kavya.jpeg"
+                <img class="pers_img" src="images/kavya.jpg"
                 class="d-inline-block align-text-center">
             </div>
             <div class="center-col">
