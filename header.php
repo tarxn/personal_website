@@ -30,7 +30,7 @@
         }
         
         .pers_img{
-            width:275px;
+            width:305px;
             height: auto;
 
         }
