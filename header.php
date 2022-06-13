@@ -79,7 +79,7 @@
                         <a class="nav-link text-white" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">People</a>
+                        <a class="nav-link text-white" href="people.php">People</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="publication.php">Publication</a>
