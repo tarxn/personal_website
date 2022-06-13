@@ -80,13 +80,20 @@
                         <a class="nav-link text-white" href="#">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#">People</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="#">Publication</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Blog</a>
+                        <a class="nav-link text-white" href="#">Awards & Projects</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button"
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Gallery</a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
                         </a>
@@ -94,12 +101,10 @@
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+                    
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#">Contact us</a>
                     </li>
                 </ul>
             </div>
