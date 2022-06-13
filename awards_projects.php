@@ -1,9 +1,8 @@
 <?php
-    include("header.php");
+include("header.php");
 ?>
 
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-    style="background-image: url('images/1836325.jpg');">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/1836325.jpg');">
     <div class="content text-center">
         <h1 class="text-white">Awards & Projects</h1>
     </div>
@@ -13,72 +12,93 @@
 
 <div class="container my-5 d-grid gap-5">
     <div>
-        <h3 style="color:blue">
-        Journal Articles (SCI/Scopus/WoS Indexed)
-        </h3>
-    </div>
-    <div class="p-5 border_card">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-        </p>
-    </div>
+        <div class="container-fluid">
+            <h3 style="color:blue">
 
+                Sponsored research projects as Principal Investigator
 
-
-    <div>
-        <h3 style="color:blue">
-        Edited Books
-        </h3>
-    </div>
-    <div class="p-5 border_card">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-        </p>
-    </div>
-
-
-
-    <div>
-        <h3 style="color:blue">
-        Book Chapters
-        </h3>
-    
-    </div>
-    <div class="p-5 border_card">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-        </p>
+            </h3>
+        </div>
+        <div class="p-5 border_card">
+            <div>
+                <h6>Project Title:</h6>
+                "title"
+            </div>
+            </br>
+            <div>
+                <h6>Role:</h6>
+                "Role"
+            </div>
+            </br>
+            <div>
+                <h6>Sponsored by:</h6>
+                "Sponsored by"
+            </div>
+            </br>
+            <div>
+                <h6>Host:</h6>
+                "Host"
+            </div>
+            </br>
+            <div>
+                <h6>Grant Period:</h6>
+                "Grant Period"
+            </div>
+            </br>
+            <div>
+                <h6>Grant Amount:</h6>
+                "Grant Amount"
+            </div>
+        </div>
     </div>
 
 
 
     <div>
-        <h3 style="color:blue">
-        Oral/Poster Presentations
-        </h3>
-    </div>
-    <div class="p-5 border_card">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-        </p>
+        <div class="container-fluid">
+            <h3 style="color:blue">
+
+                Sponsored research projects as Co-Investigator
+
+            </h3>
+        </div>
+        <div class="p-5 border_card">
+            <div>
+                <h6>Project Title:</h6>
+                "title"
+            </div>
+            </br>
+            <div>
+                <h6>Role:</h6>
+                "Role"
+            </div>
+            </br>
+            <div>
+                <h6>Sponsored by:</h6>
+                "Sponsored by"
+            </div>
+            </br>
+            <div>
+                <h6>Host:</h6>
+                "Host"
+            </div>
+            </br>
+            <div>
+                <h6>Grant Period:</h6>
+                "Grant Period"
+            </div>
+            </br>
+            <div>
+                <h6>Grant Amount:</h6>
+                "Grant Amount"
+            </div>
+        </div>
     </div>
 
 </div>
 
 
 
-<?php 
-        include("footer.php");
-    ?>
+<?php
+include("footer.php");
+?>
