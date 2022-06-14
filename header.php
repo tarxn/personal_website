@@ -6,63 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal website</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <style>
-        .banner-image {
-            background-size: cover;
-            max-height: 300px;
-        }
-
-        .bg-maroon {
-            background-color: #8c1515 !important
-        }
-
-        #active_page {
-            border-bottom: #ffee06 solid 2px;
-        }
-
-        .vl {
-            border-left: #ffffff solid 1px;
-            height: 20px;
-        }
-
-        .inline {
-            display: inline-block;
-        }
-        
-        .pers_img{
-            width:305px;
-            height: auto;
-
-        }
-        .ppl_img{
-            height:300px;
-            
-        }
-
-        .border_card {
-           
-            width: 100%;
-            height: auto;
-            background-color: #edebeb;
-        }
-        .left-col{
-            width:25%;
-            float: left;
-        }
-        .center-col{
-            width:75%;
-            float:left;
-        }
-
-        footer {
-            text-align: left;
-            margin: auto;
-            color: rgb(229, 229, 229);
-            position: relative;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/css.min.css" />
 </head>
 
 <body>
@@ -113,7 +57,7 @@
                     </li> -->
                     
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact us</a>
+                        <a class="nav-link text-white" href="contact.php">Contact us</a>
                     </li>
                 </ul>
             </div>

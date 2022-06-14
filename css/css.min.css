@@ -1,0 +1,97 @@
+.bg-maroon {
+    background-color: #8c1515 !important;
+}
+
+.banner-image {
+    background-size: cover;
+    max-height: 300px; 
+
+}
+
+#active_page {
+    border-bottom: #ffee06 solid 2px;
+}
+
+.vl {
+    border-left: #ffffff solid 1px;
+    height: 20px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.pers_img{
+    width:305px;
+    height: auto;
+
+}
+.ppl_img{
+    height:300px;
+    
+}
+
+.border_card {
+   
+    width: 100%;
+    height: auto;
+    background-color: #edebeb;
+}
+.form_card{
+    width: 100%;
+    height: 610px;
+    background-color: #edebeb;
+}
+.form_card_r{
+    width: 100%;
+    height: 610px;
+    background-color: #ffffff;
+}
+
+.left-col{
+    width:29%;
+    float: left;
+}
+.center-col{
+    width:70%;
+    float:left;
+}
+.f-left-col {
+    width:13%;
+    float: left;
+}
+.f-right-col {
+    width:85%;
+    float: right;
+}
+
+footer {
+    text-align: left;
+    margin: auto;
+    color: rgb(229, 229, 229);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.half_col1 {
+    width:45%;
+    float: left;
+}
+.half_col2 {
+    width:50%;
+    float: right;
+}
+.box_shadow { 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+.pybottom{
+    padding-bottom: 1rem !important;
+
+}
+h1 + p{
+    font-size: 20px;
+}
+
+  
