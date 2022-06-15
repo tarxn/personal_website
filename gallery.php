@@ -19,15 +19,33 @@ include("header.php");
 
             </h3>
         </div>
-        <div class="p-5 border_card">
-            <img src="images/sunset.jpeg" height="auto" width="1200">
-            <img class="my-5" src="images/iitd1.jpeg" height="auto" width="1200">
+        
+
+
+            <?php
+
+            $connection = mysqli_connect("localhost", "root", "");
+            $db = mysqli_select_db($connection, 'personal_website');
+
+            $query = "SELECT * FROM `gallary`";
+            $query_run = mysqli_query($connection, $query);
+
+            while ($row = mysqli_fetch_array($query_run)) {
+            ?>
+            <div class="p-5 border_card">
+                <?php echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="1200">'; ?>
+
+
+
         </div>
+        <?php
+            }
+        ?>
     </div>
 
 
 
-    
+
 
 </div>
 
