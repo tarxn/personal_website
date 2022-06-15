@@ -3,7 +3,7 @@ include("header.php");
 ?>
 
 <!-- Banner Image  -->
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/1836325.jpg');">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/sunset_.jpeg');">
     <div class="content text-center">
         <h1 class="text-white">Contact us</h1>
     </div>

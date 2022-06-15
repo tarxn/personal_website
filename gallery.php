@@ -20,8 +20,8 @@ include("header.php");
             </h3>
         </div>
         <div class="p-5 border_card">
-            <img src="images/88408.jpg" height="auto" width="1200">
-            <img class="my-5" src="images/674334.jpg" height="auto" width="1200">
+            <img src="images/sunset.jpeg" height="auto" width="1200">
+            <img class="my-5" src="images/iitd1.jpeg" height="auto" width="1200">
         </div>
     </div>
 
