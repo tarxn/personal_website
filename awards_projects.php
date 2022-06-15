@@ -19,37 +19,64 @@ include("header.php");
 
             </h3>
         </div>
+
+
+
+
+
+        <?php
+        $connection=mysqli_connect("localhost","root","");
+        $db=mysqli_select_db($connection,'');
+
+        $query="SELECT * FROM ``";
+
+        while($row=mysqli_fetch_array($query_run))
+        {
+            ?>
+        
+
+
+
+
+        
         <div class="p-5 border_card">
             <div>
                 <h6>Project Title:</h6>
-                "title"
+                <?php echo $row['']; ?>
             </div>
             </br>
             <div>
                 <h6>Role:</h6>
-                "Role"
+                <?php echo $row['']; ?>
             </div>
             </br>
             <div>
                 <h6>Sponsored by:</h6>
-                "Sponsored by"
+                <?php echo $row['']; ?>
             </div>
             </br>
             <div>
                 <h6>Host:</h6>
-                "Host"
+                <?php echo $row['']; ?>
             </div>
             </br>
             <div>
                 <h6>Grant Period:</h6>
-                "Grant Period"
+                <?php echo $row['']; ?>
             </div>
             </br>
             <div>
                 <h6>Grant Amount:</h6>
-                "Grant Amount"
+                <?php echo $row['']; ?>
             </div>
         </div>
+
+
+        <?php
+        }
+        ?>
+
+
     </div>
 
 
