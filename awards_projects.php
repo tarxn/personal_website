@@ -25,10 +25,12 @@ include("header.php");
 
 
         <?php
-        $connection=mysqli_connect("localhost","root","");
-        $db=mysqli_select_db($connection,'');
 
-        $query="SELECT * FROM ``";
+        $connection=mysqli_connect("localhost","root","");
+        $db=mysqli_select_db($connection,'personal_website');
+
+        $query="SELECT * FROM `awards_projects`";
+        $query_run=mysqli_query($connection,$query);
 
         while($row=mysqli_fetch_array($query_run))
         {
@@ -42,32 +44,32 @@ include("header.php");
         <div class="p-5 border_card">
             <div>
                 <h6>Project Title:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['title']; ?>
             </div>
             </br>
             <div>
                 <h6>Role:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['role']; ?>
             </div>
             </br>
             <div>
                 <h6>Sponsored by:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['sponser']; ?>
             </div>
             </br>
             <div>
                 <h6>Host:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['host']; ?>
             </div>
             </br>
             <div>
                 <h6>Grant Period:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['grant_period']; ?>
             </div>
             </br>
             <div>
                 <h6>Grant Amount:</h6>
-                <?php echo $row['']; ?>
+                <?php echo $row['grant_amount']; ?>
             </div>
         </div>
 
