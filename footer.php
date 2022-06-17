@@ -1,8 +1,8 @@
-<div class="container-fluid" style="background-color: blue; height: 165px;">
-        <div class="container text-white-muted">
-        <footer >
+<div class="container-fluid" style="background-color: #A5CFE3;  height: 150px;">
+        <div class="container " >
+        <footer style="color:#000000;">
             <div class="f-left-col container" >
-                <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="100"
+                <img src="https://upload.wikimedia.org/wikipedia/sa/6/66/IIT_Delhi_logo.png" alt="logo" width="auto" height="100"
                         class="d-inline-block align-text-center">
             </div>
             <div class="f-right-col container"> 

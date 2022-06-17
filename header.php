@@ -10,7 +10,7 @@
 </head>
 <style>
     .scrolling-active {
-        background-color: #00DCDC;
+        background-color: #A5CFE3;
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     }
 
