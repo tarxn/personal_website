@@ -5,7 +5,7 @@ include("header.php");
 <!-- Banner Image  -->
 <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/sunset_.jpeg');">
     <div class="content text-center">
-        <h1 class="text-white">Welcome to my page</h1>
+        <h1 class="text-white">Home</h1>
     </div>
 </div>
 

@@ -52,7 +52,7 @@ include("header.php");
             <img src="images/building.png" height="70px" width="auto">
             <h2>Location:</h2>
             <h5>
-                Agrinanobiotechnology Lab, Room number 280, Block 3, <br>IIT Delhi -110016
+                Agri-Nanobiotechnology Lab, Room number 280, Block 3, <br>IIT Delhi -110016
 
             </h5>
         </div>

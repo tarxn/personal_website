@@ -1,10 +1,18 @@
-.bg-maroon {
-    background-color: #8c1515 !important;
+.bg-mg {
+    background-color: #5e69ff;
 }
-
+.nav{
+    width: 100%;
+    height: 6.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid rgb(223, 223, 223); */
+    transition: height .5s ease;
+}
 .banner-image {
     background-size: cover;
-    max-height: 300px; 
+    max-height: 350px; 
 
 }
 
@@ -93,5 +101,40 @@ footer {
 h1 + p{
     font-size: 20px;
 }
+
+.scrolling-active .dmmy a{
+    color: #272626;
+}
+.scrolling-off .dmmy a{
+    color:#faf5f5;
+}
+
+dmmy{
+    /* do not delete, this is made for purpose */
+}
+.nav-link{
+    margin: 0 0.5rem;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 156, 253);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+.scrolling-active .nav{
+    height: 2rem;
+}
+
 
   
