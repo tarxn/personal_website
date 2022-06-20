@@ -10,13 +10,13 @@
 </head>
 <style>
     .scrolling-active {
-        background-color: #A5CFE3;
+        background-color: #008080;
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     }
 
-    .scrolling-active .nav a {
-        color: #313131;
-    }
+    
+
+
     
 </style>
 
@@ -25,7 +25,7 @@
 
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
         <div class="container dmmy nav">
-            <a class="navbar-brand align-text-center" href="#" style="font-size:25px;">Prof. Kavya Dashora </a>
+            <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; ">Prof. Kavya Dashora </h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +34,7 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link"  href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="people.php">People</a>

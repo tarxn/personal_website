@@ -38,7 +38,7 @@ include("header.php");
                 <input type="link" name="entry.509376194" required class="form-control" id="exampleFormControlInput1" >
             </div >
             <div  class="p-4 d-flex justify-content-center">
-            <button type="submit" class="btn bg-maroon px-5" style="color:white;">Submit</button></div>
+            <button type="submit" class="btn px-5" style="background-color:#008080; color:white;">Submit</button></div>
         </form>
         <!-- <iframe style="width:auto;" class="align-center" src="https://docs.google.com/forms/d/e/1FAIpQLSdHVIJOWUQdD4jLHJ4GI0daPZtWaxQVH-0UZ8HJviDGxgHk_Q/viewform?embedded=true" height="580" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 

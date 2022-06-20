@@ -3,7 +3,7 @@ include("header.php");
 ?>
 
 <!-- Banner Image  -->
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/sunset_.jpeg');">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/sunset_.jpeg'); font-family:'AXIS', Extra Bold;" >
     <div class="content text-center">
         <h1 class="text-white">Home</h1>
     </div>
@@ -11,12 +11,12 @@ include("header.php");
 
 <!-- Main Content Area -->
 <div class="container my-5 gap-5 ">
-    <div class="p-5 border_card">
-        <div class="left-col " style="padding-bottom:1rem !important;">
-            <img class="pers_img" src="images/kavya.jpg" class="d-inline-block align-text-center">
+    <div class="p-5 border_card mx-auto d-flex">
+        <div class="col-left " style="padding-bottom:1rem !important;">
+            <img class="pers_img" src="images/kavya.jpg" class="d-inline-block">
         </div>
-
-        <h1>Prof. Kavya Dashora</h1>
+        <div class="col-right">
+        <h2>Prof. Kavya Dashora</h2>
 
         <p>
 
@@ -27,6 +27,7 @@ include("header.php");
             <br>
 
         </p>
+        </div>
 
     </div>
 
