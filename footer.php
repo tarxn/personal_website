@@ -4,22 +4,22 @@
         <!-- Left -->
         <div class="d-flex container mx-auto">
             <div class="col-lg-2 px-2">
-                <a href="https://scholar.google.com/citations?hl=en&user=WVfT3dsAAAAJ">
+                <a href="https://scholar.google.com/citations?hl=en&user=WVfT3dsAAAAJ" target=”_blank”>
                     Google Scholar
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://www.researchgate.net/profile/Kavya-Dashora">
+                <a href="https://www.researchgate.net/profile/Kavya-Dashora" target=”_blank”>
                     ResearchGate
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://www.linkedin.com/in/kavya-dashora-2a719448/">
+                <a href="https://www.linkedin.com/in/kavya-dashora-2a719448/" target=”_blank”>
                     LinkedIn
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://www.youtube.com/watch?v=EUsj7l0UA1E">
+                <a href="https://www.youtube.com/watch?v=EUsj7l0UA1E" target=”_blank”>
                     YouTube
                 </a>
             </div>
