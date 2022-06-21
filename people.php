@@ -24,7 +24,7 @@ include("header.php");
 
     <div class="p-5 border_card">
         <div class="left-col ppl_img">
-        <?php echo '<img class="ppl_img d-inline-block align-text-center" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" >'; ?>
+        <?php echo '<img class="ppl_img d-inline-block align-text-center" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="200px" height="auto" >'; ?>
             <!-- <img class="ppl_img" src="images/stock_woman.jpg" class="d-inline-block align-text-center"> -->
         </div>
         <div class="center-col">
