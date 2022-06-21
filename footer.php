@@ -9,17 +9,17 @@
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://scholar.google.com/citations?hl=en&user=WVfT3dsAAAAJ">
+                <a href="https://www.researchgate.net/profile/Kavya-Dashora">
                     ResearchGate
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://scholar.google.com/citations?hl=en&user=WVfT3dsAAAAJ">
+                <a href="https://www.linkedin.com/in/kavya-dashora-2a719448/">
                     LinkedIn
                 </a>
             </div>
             <div class="col-lg-2 px-2">
-                <a href="https://scholar.google.com/citations?hl=en&user=WVfT3dsAAAAJ">
+                <a href="https://www.youtube.com/watch?v=EUsj7l0UA1E">
                     YouTube
                 </a>
             </div>
