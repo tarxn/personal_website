@@ -157,21 +157,21 @@ dmmy {
     position: relative;
 }
 .scrolling-active .nav a {
-    color: #fff;
-}
+        color: #fff;
+    }
 
-h1,h2,h3,h4,h5,h6 {
-    
-    font-family: 'DM Serif Display', Regular;
-}
+    h1,h2,h3,h4,h5,h6 {
+        
+        font-family: 'DM Serif Display', Regular;
+    }
 
-p{
-    font-size: 20px;
-}
-a,h7{
-    font-family:'Aileron', Regular;
-}
-a{
-    color:#fff;
-    text-decoration: none;
-}
+    p{
+        font-size: 20px;
+    }
+    a,h7{
+        font-family:'Aileron', Regular;
+    }
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
