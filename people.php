@@ -48,9 +48,9 @@ include("header.php");
         <div class="center-col">
             <p>
             <h4>Student name</h4>
-            B.Sc. (Zoology), 2016, Fakir Mohan University, Odisha<br>
-            M.Sc. (Zoology), 2018, North Orissa University, Odisha<br>
-            Project: Role of endothelial plasticity in the tumour microenvironment (UGC-JRF)<br>
+            <h6>Masters:</h6> B.Sc. (Zoology), 2016, Fakir Mohan University, Odisha<br>
+            <h5>Area of Interest:</h5> M.Sc. (Zoology), 2018, North Orissa University, Odisha<br>
+            <h5>Masters:</h5> Project: Role of endothelial plasticity in the tumour microenvironment (UGC-JRF)<br>
             Email: bt19d025@smail.iitm.ac.in; LinkedIn<br>
             Hobbies: Gardening, Reading novels, Singing and Dancing<br>
             </p>

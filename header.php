@@ -8,17 +8,25 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/css.min.css" />
 </head>
+<style>
+    .scrolling-active {
+        background-color: #008080;
+        box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    }
+
+    
+
+
+    
+</style>
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="45"
-                    class="d-inline-block align-text-center"></a>
-            <a class="navbar-brand align-text-center" href="#" style="color: white; font-size:25px;">Kavya Dashora </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
+        <div class="container dmmy nav">
+            <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; ">Prof. Kavya Dashora </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -26,24 +34,24 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="index.php">Home</a>
+                        <a class="nav-link"  href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="people.php">People</a>
+                        <a class="nav-link " href="people.php">People</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="publication.php">Publication</a>
+                        <a class="nav-link" href="publication.php">Publication</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="Research.php">Research</a>
+                        <a class="nav-link" href="Research.php">Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="awards_projects.php">Awards & Projects</a>
+                        <a class="nav-link" href="awards_projects.php">Awards & Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="gallery.php">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery</a>
                     </li>
-                    
+
 
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
@@ -55,13 +63,11 @@
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                         </ul>
                     </li> -->
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="contact.php">Contact us</a>
+                        <a class="nav-link" href="contact.php">Contact us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-   

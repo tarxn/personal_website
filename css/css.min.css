@@ -1,10 +1,19 @@
-.bg-maroon {
-    background-color: #8c1515 !important;
+.bg-color1 {
+    background-color: #008080;
+}
+
+.nav {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: height .5s ease;
 }
 
 .banner-image {
     background-size: cover;
-    max-height: 300px; 
+    max-height: 350px;
 
 }
 
@@ -21,47 +30,59 @@
     display: inline-block;
 }
 
-.pers_img{
-    width:305px;
+.pers_img {
+    width: 305px;
     height: auto;
 
 }
-.ppl_img{
-    height:300px;
-    
+
+.ppl_img {
+    height: 300px;
+
 }
 
 .border_card {
-   
+
     width: 100%;
     height: auto;
-    background-color: #edebeb;
+    background-color: #e9ecf1;
 }
-.form_card{
+
+.form_card {
     width: auto;
     height: 650px;
     background-color: #edebeb;
 }
-.form_card_r{
+
+.form_card_r {
     width: auto;
     height: 650px;
     background-color: #ffffff;
 }
 
-.left-col{
-    width:29%;
-    float: left;
+.col-left {
+    width: 29%;
+    flex:left;
+
 }
-.center-col{
-    width:70%;
-    float:left;
+
+.col-right {
+    width: 70%;
+    flex:right;
 }
+
 .f-left-col {
-    width:13%;
+    width: 13%;
     float: left;
 }
+
+.f-center-col {
+    width: 65%;
+    float: right;
+}
+
 .f-right-col {
-    width:85%;
+    width: 20%;
     float: right;
 }
 
@@ -75,23 +96,82 @@ footer {
 }
 
 .half_col1 {
-    width:45%;
+    width: 45%;
     float: left;
 }
+
 .half_col2 {
-    width:50%;
+    width: 50%;
     float: right;
 }
-.box_shadow { 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
 
-.pybottom{
+.box_shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pybottom {
     padding-bottom: 1rem !important;
 
 }
-h1 + p{
-    font-size: 20px;
+
+.scrolling-active .dmmy a {
+    color: #ffffff;
 }
 
-  
+.scrolling-off .dmmy a {
+    color: #faf5f5;
+}
+
+dmmy {
+    /* do not delete, this is made for purpose */
+}
+
+.nav-link {
+    margin: 0 0.5rem;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+.scrolling-active .nav {
+    height: 2rem;
+}
+
+.footer-link {
+    margin: 0 0.5rem;
+    position: relative;
+}
+.scrolling-active .nav a {
+        color: #fff;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        
+        font-family: 'DM Serif Display', Regular;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    a,h7{
+        font-family:'Aileron', Regular;
+    }
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
