@@ -22,7 +22,7 @@
         $connection=mysqli_connect("localhost","root","");
         $db=mysqli_select_db($connection,'personal_website');
 
-        $query="SELECT * FROM `publication_e`";
+        $query="SELECT * FROM `publication` ORDER BY `sno` DESC";
         $query_run=mysqli_query($connection,$query);
 
         while($row=mysqli_fetch_array($query_run))

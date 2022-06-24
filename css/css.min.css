@@ -41,7 +41,7 @@
 
     width: 100%;
     height: auto;
-    background-color: #e9ecf1;
+    background-color: #eff2f5;
 }
 
 .form_card {
@@ -58,13 +58,13 @@
 
 .col-left {
     width: 20%;
-    flex:left;
+    flex: left;
 
 }
 
 .col-right {
     width: 70%;
-    flex:right;
+    flex: right;
 }
 
 .f-left-col {
@@ -153,23 +153,27 @@ dmmy {
     margin: 0 0.5rem;
     position: relative;
 }
+
 .scrolling-active .nav a {
-        color: #fff;
-    }
+    color: #fff;
+}
 
-    h1,h2,h3,h4,h5,h6 {
-        
-        font-family: 'DM Serif Display', Regular;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
-    p{
-        font-size: 20px;
-    }
-    a,h7{
-        font-family:'Aileron', Regular;
-    }
-    a{
-        color:#fff;
-        text-decoration: none;
-    }
-    
+    font-family: 'DM Serif Display', Regular;
+}
+
+a,
+h7 {
+    font-family: 'Aileron', Regular;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

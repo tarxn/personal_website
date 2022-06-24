@@ -18,6 +18,9 @@
         color: #faf5f5;
         text-shadow: 1px 1px 10px black;
     }
+    p{
+        font-size: 20px;
+    }
 </style>
 
 <body>
