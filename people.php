@@ -23,21 +23,22 @@ include("header.php");
     ?>
 
         <div class="p-5 border_card row d-flex">
-            <div class="col-3 p-0 order-1"  style="z-index:1;" >
+            <div class="col-4 p-0 order-1"  style="z-index:1;" >
                 <div >
-                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="190px" height="auto" >'; ?>
+                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
         
             </div>
             </div>
-            <div class="col-9 py-2 order-2" style="z-index:1; position:relative; ">
-                <div >
+            <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
+                
                 <h4><?php echo $row['name']; ?></h4>
+                <p>
                 <?php echo $row['edu']; ?><br>
                 Area of interest:<?php echo $row['Area of Interest']; ?><br>
                 About me:<?php echo $row['About me']; ?><br>
                 <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
                 <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
-                </div>
+                </p>
             </div>
         </div>
     <?php
