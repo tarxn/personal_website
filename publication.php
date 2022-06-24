@@ -28,9 +28,10 @@
         while($row=mysqli_fetch_array($query_run))
         {
     ?>
-    <div >
-    <p class="row">
-        <h5><?php echo $row['authors']; ?></h5>
+    <div class="my-0 p-2">
+    
+        <h4><?php echo $row['authors']; ?></h4>
+        <p>
                 <?php echo $row['abstract']; ?>
     </p>
     </div>
