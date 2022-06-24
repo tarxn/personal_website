@@ -36,10 +36,6 @@
 
 }
 
-.ppl_img {
-    height: 300px;
-
-}
 
 .border_card {
 
@@ -61,7 +57,7 @@
 }
 
 .col-left {
-    width: 29%;
+    width: 20%;
     flex:left;
 
 }
