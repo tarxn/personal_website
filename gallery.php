@@ -12,45 +12,56 @@ include("header.php");
 
 <div class="container my-5 d-grid gap-5">
     <div>
-        <div class="container-fluid">
-            <h3 style="color:blue">
-
-                Sponsored research projects as Principal Investigator
-
-            </h3>
-        </div>
-        
-
-
-            <?php
-
-            $connection = mysqli_connect("localhost", "root", "");
-            $db = mysqli_select_db($connection, 'personal_website');
-
-            $query = "SELECT * FROM `gallary`";
-            $query_run = mysqli_query($connection, $query);
-
-            while ($row = mysqli_fetch_array($query_run)) {
-            ?>
-            <div class="p-5 border_card">
-                <?php echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="1200">'; ?>
-
-
-
-        </div>
         <?php
-            }
+
+        $connection = mysqli_connect("localhost", "root", "");
+        $db = mysqli_select_db($connection, 'personal_website');
+
+        $query = "SELECT * FROM `gallary`";
+        $query_run = mysqli_query($connection, $query);
+        $rowcount = mysqli_num_rows( $query_run );
+        $sr=0;
+        while ($row = mysqli_fetch_array($query_run)) {
+        ?>
+
+                <?php
+
+                $sr++;
+                
+
+                if ($sr%2==1)
+                {
+                    if($rowcount!=$sr)
+                    {
+                    echo '<div class="p-5 border_card d-flex">
+                    <div class="p-5 col-left-img">';
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                    </div>';
+                    }
+                    else
+                    {
+                        echo '<div class="p-5 border_card d-flex">
+                        <div class="p-5 col-left-img">';
+                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                        </div>';
+                        echo '</div>';
+                    }
+                }
+                else 
+                {
+                    echo '<div class="p-5 col-right-img">';
+
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                    </div>
+                    </div>';
+                }
+                ?>
+
+        <?php
+        }
         ?>
     </div>
-
-
-
-
-
 </div>
-
-
-
 <?php
 include("footer.php");
 ?>
