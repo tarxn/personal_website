@@ -14,10 +14,10 @@
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     }
 
-    
-
-
-    
+    .scrolling-off .nav a {
+        color: #faf5f5;
+        text-shadow: 1px 1px 10px black;
+    }
 </style>
 
 <body>
@@ -34,7 +34,7 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"  href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="people.php">People</a>
