@@ -11,11 +11,11 @@ include("header.php");
 
 <!-- Main Content Area -->
 <div class="container my-5 gap-5 ">
-    <div class="p-5 border_card mx-auto d-flex">
+    <div class="p-5 border_card mx-auto d-flex row">
         <div class="col-left " style="padding-bottom:1rem !important;">
             <img class="pers_img" src="images/kavya.jpg" class="d-inline-block">
         </div>
-        <div class="col-right">
+        <div class="col-right ">
         <h2>Prof. Kavya Dashora</h2>
 
         <p>

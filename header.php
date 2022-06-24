@@ -18,8 +18,28 @@
         color: #faf5f5;
         text-shadow: 1px 1px 10px black;
     }
-    p{
+
+    p {
         font-size: 20px;
+    }
+
+    .gallery_img {
+        max-width: 40px;
+    }
+
+    .col-left-img {
+        width: 48%;
+        float: left;
+        
+        margin-left: 5px;
+        display: block;
+    }
+
+    .col-right-img {
+        width: 49%;
+        float: right;
+        margin-right: 5px;
+        display: block;
     }
 </style>
 

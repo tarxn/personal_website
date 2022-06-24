@@ -2,7 +2,7 @@
 include("header.php");
 ?>
 
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/1836325.jpg');">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/bannerimg.jpg');">
     <div class="content text-center">
         <h1 class="text-white">Gallery</h1>
     </div>
@@ -33,25 +33,25 @@ include("header.php");
                 {
                     if($rowcount!=$sr)
                     {
-                    echo '<div class="p-5 border_card d-flex">
-                    <div class="p-5 col-left-img">';
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                    echo '<div class="p-2 border_card row">
+                    <div class="p-2 col-left-img gallery_img">';
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>';
                     }
                     else
                     {
-                        echo '<div class="p-5 border_card d-flex">
-                        <div class="p-5 col-left-img">';
-                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                        echo '<div class="p-2 border_card d-flex">
+                        <div class="p-2 col-left-img gallery_img">';
+                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" ">
                         </div>';
                         echo '</div>';
                     }
                 }
                 else 
                 {
-                    echo '<div class="p-5 col-right-img">';
+                    echo '<div class="p-2 col-right-img gallery_img">';
 
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" height="auto" width="600">
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>
                     </div>';
                 }
