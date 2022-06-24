@@ -114,8 +114,9 @@ footer {
     color: #ffffff;
 }
 
-.scrolling-off .dmmy a {
+.scrolling-off .nav a {
     color: #faf5f5;
+    text-shadow: 10px 10px 10px black;
 }
 
 dmmy {
@@ -171,3 +172,4 @@ dmmy {
         color:#fff;
         text-decoration: none;
     }
+    
