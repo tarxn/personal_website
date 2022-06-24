@@ -66,6 +66,15 @@
     width: 70%;
     flex:right;
 }
+.col-left-img {
+    width: 50%;
+    flex:left;
+}
+
+.col-right-img {
+    width: 50%;
+    flex:right;
+}
 
 .f-left-col {
     width: 13%;
