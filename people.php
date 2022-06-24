@@ -22,70 +22,26 @@ include("header.php");
             {
         ?>
 
-    <div class="p-5 border_card">
-        <div class="left-col ppl_img">
-        <?php echo '<img class="ppl_img d-inline-block align-text-center" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="200px" height="auto" >'; ?>
+    <div class="p-5 border_card d-flex">
+        <div class="col-left " >
+        <?php echo '<img class="d-inline-block align-text-center" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="170px" height="auto" >'; ?>
             <!-- <img class="ppl_img" src="images/stock_woman.jpg" class="d-inline-block align-text-center"> -->
         </div>
-        <div class="center-col">
+        <div class="col-right" >
             <p>
             <h4><?php echo $row['name']; ?></h4>
-            <?php echo $row['edu1']; ?><br>
-            <?php echo $row['edu2']; ?><br>
-            <?php echo $row['desc1']; ?><br>
-            <?php echo $row['contact']; ?><br>
-            <?php echo $row['desc2']; ?><br>
+            <?php echo $row['edu']; ?><br>
+            Area of interest:<?php echo $row['Area of Interest']; ?><br>
+            About me:<?php echo $row['About me']; ?><br>
+            <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a>, 
+            <a href="<?php echo $row['Research Gate']; ?>" class="link-primary">Research Gate </a><br>
             </p>
         </div>
     </div>
     <?php
         }
         ?>
-    <div class="p-5 border_card">
-        <div class="left-col ppl_img">
-            <img class="ppl_img" src="images/stock_woman.jpg" class="d-inline-block align-text-center">
-        </div>
-        <div class="center-col">
-            <p>
-            <h4>Student name</h4>
-            <h6>Masters:</h6> B.Sc. (Zoology), 2016, Fakir Mohan University, Odisha<br>
-            <h5>Area of Interest:</h5> M.Sc. (Zoology), 2018, North Orissa University, Odisha<br>
-            <h5>Masters:</h5> Project: Role of endothelial plasticity in the tumour microenvironment (UGC-JRF)<br>
-            Email: bt19d025@smail.iitm.ac.in; LinkedIn<br>
-            Hobbies: Gardening, Reading novels, Singing and Dancing<br>
-            </p>
-        </div>
-    </div>
-    <div class="p-5 border_card">
-        <div class="left-col ppl_img">
-            <img class="ppl_img" src="images/stock_woman.jpg" class="d-inline-block align-text-center">
-        </div>
-        <div class="center-col">
-            <p>
-            <h4>Student name</h4>
-            B.Sc. (Zoology), 2016, Fakir Mohan University, Odisha<br>
-            M.Sc. (Zoology), 2018, North Orissa University, Odisha<br>
-            Project: Role of endothelial plasticity in the tumour microenvironment (UGC-JRF)<br>
-            Email: bt19d025@smail.iitm.ac.in; LinkedIn<br>
-            Hobbies: Gardening, Reading novels, Singing and Dancing<br>
-            </p>
-        </div>
-    </div>
-    <div class="p-5 border_card">
-        <div class="left-col ppl_img">
-            <img class="ppl_img" src="images/stock_woman.jpg" class="d-inline-block align-text-center">
-        </div>
-        <div class="center-col">
-            <p>
-            <h4>Student name</h4>
-            B.Sc. (Zoology), 2016, Fakir Mohan University, Odisha<br>
-            M.Sc. (Zoology), 2018, North Orissa University, Odisha<br>
-            Project: Role of endothelial plasticity in the tumour microenvironment (UGC-JRF)<br>
-            Email: bt19d025@smail.iitm.ac.in; LinkedIn<br>
-            Hobbies: Gardening, Reading novels, Singing and Dancing<br>
-            </p>
-        </div>
-    </div>
+    
 </div>
 
 
