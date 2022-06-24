@@ -20,12 +20,13 @@ include("header.php");
         $query = "SELECT * FROM `gallary`";
         $query_run = mysqli_query($connection, $query);
         $rowcount = mysqli_num_rows( $query_run );
+        $sr=0;
         while ($row = mysqli_fetch_array($query_run)) {
         ?>
 
                 <?php
 
-                $sr=$row['SR No.'];
+                $sr++;
                 
 
                 if ($sr%2==1)
