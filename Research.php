@@ -41,7 +41,7 @@ include("header.php");
                                     <a href="<?php echo $row['link']; ?>" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">Read more</a>
                                 </div>
                             </div>
-                            <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1080" data-image-height="1080">
+                            <div class="container u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src=""  style="max-width: 200px;">
                             <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image"  height="auto" >'; ?></div>
                             </div>
                         </div>
