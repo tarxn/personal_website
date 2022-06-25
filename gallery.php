@@ -10,7 +10,7 @@ include("header.php");
 
 <!-- Main Content Area -->
 
-<div class="container my-5 d-grid gap-5">
+<div class="container-fluid my-5 d-grid gap-5">
     <div>
         <?php
 
