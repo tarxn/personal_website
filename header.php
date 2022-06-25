@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kavya Dashora</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/nicepage.css" />
     <link rel="stylesheet" href="css/home.css" />
@@ -32,22 +32,21 @@
 
     .col-left-img {
         width: 50%;
-        max-width: 730px;
+        max-width: 710px;
         max-height: 730px;
         flex: left;
-
         margin-left: 5px;
         display: block;
     }
     .col-left-img img{
         max-height: 700px;
-        max-width: 700px;
+        max-width: 680px;
         padding-bottom: 5px;
     }
 
     .col-right-img img{
         max-height: 700px;
-        max-width: 700px;
+        max-width: 680px;
         padding-bottom: 5px;
     }
 

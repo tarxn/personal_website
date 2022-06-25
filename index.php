@@ -35,8 +35,9 @@ include("header.php");
 
 
 </div>
+<hr>
 <div class="container">
-    <div class="p-5 my-3 border_card">
+    <div class="p-5 my-5 border_card">
 
         <p> A <span class="first-word" style="font-family: 'DM Serif Display', Regular;"> JOURNEY </span>
             from tiny hands on the globe to a giant leap across the planet……….
@@ -53,13 +54,13 @@ include("header.php");
 
 
 
-    <div class="p-5 my-3 border_card">
+    <div class="p-5 my-5 border_card">
         <h3>Education</h3>
         <p style="font-size: 20px;">
             Prof Dashora completed her PhD from prestigious Central Arid Zone Research Institute (CAZRI-ICAR) on developing low-cost biocontrol solutions for pearl millet smut caused by Tolyposporium penicillarie
         </p>
     </div>
-    <div class="p-5 my-3 border_card">
+    <div class="p-5 my-5 border_card">
         <h3>Skills</h3>
         <p>
             <span style="font-size:22px; font-weight: 500;">Nanotechnology:</span>
@@ -73,13 +74,6 @@ include("header.php");
 
             <span style="font-size:22px; font-weight: 500;">Value chain management:</span>
             Blockchain technology, etraceability
-
-        </p>
-    </div>
-    <div class="p-5 my-3 border_card">
-        <h3>From Biondynamic IPM to nanotechnology for safe agriculture</h3>
-        <p>
-            Prof Dashora had a dual interest from biodynamic IPM implemented in large plantation crops ensuring the natural ecological balance of pest-predator, natural enemy with green ways for sustainable agriculture and the wonderful, unexplored world of microbes under the microscope. With these interests, she developed translational mode of research to translate the best lab practices into best land practices. Driven by a desire to understand how things work at micro and subsequently nano level in plants-soil-microbe interaction, she further went on to pursue research in nanotechnology and the impact of nanoparticles on soil and microbial enzymes, nanotoxicity, green nanosynthesis, and regulation of nanoparticles in agriculture.
 
         </p>
     </div>

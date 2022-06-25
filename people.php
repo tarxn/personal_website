@@ -9,15 +9,13 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="container my-5 d-grid gap-5">
+<div class="container my-3 d-grid gap-3">
 
-    <div class="container-fluid">
+    
         <h3 style="color:blue">
 
             People
-
         </h3>
-    </div>
     <?php
 
     $connection = mysqli_connect("localhost", "root", "");
