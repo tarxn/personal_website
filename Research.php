@@ -9,7 +9,7 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="u-body u-xl-mode u-grey-5 my-5 gap-5">
+
 
     <?php
     $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
@@ -21,6 +21,7 @@ include("header.php");
 
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
+    <div class="u-body u-xl-mode u-grey-5 my-5 gap-5">
         <section class="u-clearfix  u-section-2" id="sec-17ca">
             <div class="u-clearfix u-sheet u-sheet-1">
                 <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
@@ -55,12 +56,13 @@ include("header.php");
 
 
 </section>
+</div>
 <?php
     }
     mysqli_close($connection);
 ?>
 
-</div>
+
 
 
 
