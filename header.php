@@ -32,7 +32,7 @@
 
     .col-left-img {
         width: 50%;
-        max-width: 710px;
+        
         max-height: 730px;
         flex: left;
         margin-left: 5px;
@@ -40,7 +40,7 @@
     }
     .col-left-img img{
         max-height: 700px;
-        max-width: 680px;
+        max-width: 665px;
         padding-bottom: 5px;
     }
 
