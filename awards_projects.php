@@ -2,7 +2,7 @@
 include("header.php");
 ?>
 
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/1836325.jpg');">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/bannerimg.jpg');">
     <div class="content text-center">
         <h1 class="text-white">Awards & Projects</h1>
     </div>
