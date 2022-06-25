@@ -10,7 +10,7 @@ include("header.php");
 
 <!-- Main Content Area -->
 
-<div class="container-fluid my-5 d-grid gap-5">
+<div class="container my-5 d-grid gap-5">
     <div>
         <?php
 
@@ -23,13 +23,17 @@ include("header.php");
         $sr=0;
         while ($row = mysqli_fetch_array($query_run)) {
         ?>
+
                 <?php
+
                 $sr++;
+                
+
                 if ($sr%2==1)
                 {
                     if($rowcount!=$sr)
                     {
-                    echo '<div class="p-2 border_card d-flex">
+                    echo '<div class="p-2 border_card row">
                     <div class="p-2 col-left-img">';
                     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>';
