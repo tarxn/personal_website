@@ -20,7 +20,7 @@
     <div class="p-5 border_card">
     <?php
         $connection=mysqli_connect("localhost","root","");
-        $db=mysqli_select_db($connection,'personal_website');
+        $db=mysqli_select_db($connection,'u731109599_kavyadb');
 
         $query="SELECT * FROM `publication` ORDER BY `sno` DESC";
         $query_run=mysqli_query($connection,$query);

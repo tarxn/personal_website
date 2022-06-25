@@ -15,7 +15,7 @@ include("header.php");
         <?php
 
         $connection = mysqli_connect("localhost", "root", "");
-        $db = mysqli_select_db($connection, 'personal_website');
+        $db = mysqli_select_db($connection, 'u731109599_kavyadb');
 
         $query = "SELECT * FROM `gallary`";
         $query_run = mysqli_query($connection, $query);
