@@ -19,7 +19,7 @@ include("header.php");
     <?php
 
     $connection = mysqli_connect("localhost", "root", "");
-    $db = mysqli_select_db($connection, 'u731109599_kavyadb');
+    $db = mysqli_select_db($connection, 'kavyadb');
 
     $query = "SELECT * FROM `people`";
     $query_run = mysqli_query($connection, $query);
