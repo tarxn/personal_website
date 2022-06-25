@@ -10,7 +10,7 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="container my-5 gap-5">
+<div class="container my-5">
 
     <div class="form_card box_shadow half_col2 p-5">
         <div class="pybottom">
@@ -52,8 +52,9 @@ include("header.php");
                 <h2>Office:</h2>
             </div>
             <div>
-                <h3 style="font-family: 'Aileron', Regular;"> Dr. Kavya Dashora</h3>
-                <h5 style="font-family: 'Aileron', Regular;">Associate Professor<br>
+                <h3 style="font-family: 'Aileron', Regular;">Dr. Kavya Dashora</h3>
+                <h5 style="font-family: 'Aileron', Regular;">
+                Associate Professor<br>
                     Room no 276, Block III,<br>
                     Centre for Rural Development and Technology<br>
                     Indian Institute of Technology Delhi,<br>

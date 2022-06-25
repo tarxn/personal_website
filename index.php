@@ -62,16 +62,16 @@ include("header.php");
     <div class="p-5 my-3 border_card">
         <h3>Skills</h3>
         <p>
-            <span style="font-size:25px; font-weight: 600;">Nanotechnology:</span>
+            <span style="font-size:22px; font-weight: 500;">Nanotechnology:</span>
             Nanosynthesis, Nanotoxicity, Regulations<br>
 
-            <span style="font-size:25px; font-weight: 600;">Bioprocess engineering:</span>
+            <span style="font-size:22px; font-weight: 500;">Bioprocess engineering:</span>
             Microbial Enzymes, Garbage Enzymes<br>
 
-            <span style="font-size:25px; font-weight: 600;">Food:</span>
+            <span style="font-size:22px; font-weight: 500;">Food:</span>
             Plant based proteins, Mock meats<br>
 
-            <span style="font-size:25px; font-weight: 600;">Value chain management:</span>
+            <span style="font-size:22px; font-weight: 500;">Value chain management:</span>
             Blockchain technology, etraceability
 
         </p>
