@@ -9,8 +9,8 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="u-body u-xl-mode my-5">
-    <section class="u-clearfix u-grey-5 u-section-2" id="sec-17ca">
+<div class="u-body u-xl-mode u-grey-5 my-5 gap-5">
+    <section class="u-clearfix  u-section-2" id="sec-17ca">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout" style="">
@@ -30,8 +30,8 @@ include("header.php");
             </div>
         </div>
     </section>
-
-    <section class="u-clearfix u-grey-5 u-section-2" id="sec-17ca">
+ <hr>
+    <section class="u-clearfix  u-section-2" id="sec-17ca">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout" style="">
@@ -51,8 +51,8 @@ include("header.php");
             </div>
         </div>
     </section>
-
-    <section class="u-clearfix u-grey-5 u-section-2" id="sec-17ca">
+    <hr>
+    <section class="u-clearfix u-section-2" id="sec-17ca">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout" style="">
@@ -72,8 +72,8 @@ include("header.php");
             </div>
         </div>
     </section>
-
-    <section class="u-clearfix u-grey-5 u-section-2" id="sec-17ca">
+    <hr>
+    <section class="u-clearfix  u-section-2" id="sec-17ca">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout" style="">
