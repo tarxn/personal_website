@@ -47,6 +47,12 @@
         font-size: 35px;
         line-height: 70px;
     }
+
+    .form_card {
+        max-width: 650px;
+        height: auto;
+        background-color: #edebeb;
+    }
 </style>
 
 <body>
