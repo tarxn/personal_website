@@ -84,13 +84,11 @@ include("header.php");
             </div>
         </form>
 
-<<<<<<< HEAD
-=======
     </div>
 
-    
-   
-    
+
+
+
 
 
 
