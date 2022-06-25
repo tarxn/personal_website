@@ -1,6 +1,6 @@
-<footer style="background-color: #008080; height: 250px; color:#fff;">
+<footer style="background-color: #008080; height: auto; color:#fff;">
     <!-- #008080-teal  -->
-    <section class=" border-bottom container-fluid" style="height:45px;">
+    <section class="container-fluid" style="height:auto;">
         <!-- Left -->
         <div class="d-flex container mx-auto">
             <div class="col-lg-2 px-2">
@@ -24,35 +24,37 @@
                 </a>
             </div>
         </div>
+
         <!-- Right -->
     </section>
+    <hr>
+    <div class="container my-4">
+        <div class="row container">
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+
+                <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="145" class="d-inline-block align-text-center">
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-10 col-md-6 mb-4 mb-md-0 p-2">
+                <h3>Centre for Rural Development & Technology, IIT Delhi</h3>
+                <p>Address: Agri-Nanobiotechnology Lab, Room number 280, Block 3, IIT Delhi-110016 <br> Email: kdashora@rdat.iitd.ac.in <br>
+                    Phone: 2659-1133 |
+                    Mobile: 9968354317
+                </p>
+
+            </div>
 
 
-    <div class="container py-4">
-    <div class="row container">
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-      
-        <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="120" class="d-inline-block align-text-center">
-    
-      </div>
-      <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-lg-10 col-md-6 mb-4 mb-md-0 p-2">
-        <h4>Centre for Rural Development & Technology, IIT Delhi</h4>
-            <h7>Address: Agri-Nanobiotechnology Lab, Room number 280, Block 3, IIT Delhi-110016 <br> Email: kdashora@rdat.iitd.ac.in <br>
-            </h7>
-        
-      </div>    
+            <!-- <footer> -->
 
 
 
-        <!-- <footer> -->
-       
-
-
-    </div>
+        </div>
 
 </footer>
 <script src="js/bootstrap.bundle.min.js"></script>

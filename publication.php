@@ -11,7 +11,7 @@
 
 <!-- Main Content Area -->
 
-<div class="container my-5 d-grid gap-5">
+<div class="container-fluid my-5 d-grid gap-5">
     <!-- <div>
         <h3 style="color:blue">
         Journal Articles (SCI/Scopus/WoS Indexed)

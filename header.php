@@ -30,7 +30,7 @@
     .col-left-img {
         width: 48%;
         float: left;
-        
+
         margin-left: 5px;
         display: block;
     }
@@ -40,6 +40,11 @@
         float: right;
         margin-right: 5px;
         display: block;
+    }
+
+    .first-word {
+        font-size: 35px;
+        line-height: 70px;
     }
 </style>
 
