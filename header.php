@@ -30,7 +30,7 @@
 
     .col-left-img {
         width: 48%;
-        float: left;
+        flex: left;
 
         margin-left: 5px;
         display: block;
@@ -38,7 +38,7 @@
 
     .col-right-img {
         width: 49%;
-        float: right;
+        flex: right;
         margin-right: 5px;
         display: block;
     }

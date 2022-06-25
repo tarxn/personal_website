@@ -29,7 +29,7 @@ include("header.php");
                 {
                     if($rowcount!=$sr)
                     {
-                    echo '<div class="p-2 border_card row">
+                    echo '<div class="p-2 border_card d-flex">
                     <div class="p-2 col-left-img">';
                     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>';
