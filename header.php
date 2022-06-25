@@ -29,7 +29,9 @@
     }
 
     .col-left-img {
-        width: 48%;
+        width: 50%;
+        max-width: 730px;
+        max-height: 730px;
         flex: left;
 
         margin-left: 5px;
@@ -37,7 +39,9 @@
     }
 
     .col-right-img {
-        width: 49%;
+        width: 50%;
+        max-width: 730px;
+        max-height: 730px;
         flex: right;
         margin-right: 5px;
         display: block;
