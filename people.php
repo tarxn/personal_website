@@ -62,8 +62,8 @@ include("header.php");
 
         <?php
 
-    $connection = mysqli_connect("localhost", "root", "");
-    $db = mysqli_select_db($connection, 'personal_website');
+    
+    $db = mysqli_select_db($connection, '');
 
     $query = "SELECT * FROM `technical staff`";
     $query_run = mysqli_query($connection, $query);
