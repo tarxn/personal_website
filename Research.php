@@ -9,7 +9,7 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="u-grey-5">
+<div class="u-grey-5 my-5">
 
     <?php
     $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
