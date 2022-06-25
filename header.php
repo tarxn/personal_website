@@ -31,15 +31,30 @@
     }
 
     .col-left-img {
-        width: 48%;
+        width: 50%;
+        max-width: 730px;
+        max-height: 730px;
         flex: left;
 
         margin-left: 5px;
         display: block;
     }
+    .col-left-img img{
+        max-height: 700px;
+        max-width: 700px;
+        padding-bottom: 5px;
+    }
+
+    .col-right-img img{
+        max-height: 700px;
+        max-width: 700px;
+        padding-bottom: 5px;
+    }
 
     .col-right-img {
-        width: 49%;
+        width: 50%;
+        max-width: 730px;
+        max-height: 730px;
         flex: right;
         margin-right: 5px;
         display: block;

@@ -38,7 +38,7 @@ include("header.php");
                     {
                         echo '<div class="p-2 border_card d-flex">
                         <div class="p-2 col-left-img ">';
-                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" ">
+                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image"  >
                         </div>';
                         echo '</div>';
                     }
@@ -47,7 +47,7 @@ include("header.php");
                 {
                     echo '<div class="p-2 col-right-img ">';
 
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="700px">
                     </div>
                     </div>';
                 }
