@@ -44,7 +44,7 @@ include("header.php");
                             <?php 
                             echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" data-image-width="1080" data-image-height="1080">';
                             ?>
-                            <div class="u-container-layout u-valign-middle u-container-layout-2" src="images/wall.jpg"></div>
+                            <div class="u-container-layout u-valign-middle u-container-layout-2" <?php echo 'src="data:image;base64,' . base64_encode($row['images']) . '"'; ?>  ></div>
                             </img>
                         </div>
                     </div>
