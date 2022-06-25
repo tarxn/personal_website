@@ -70,7 +70,7 @@
         background-color: #edebeb;
     }
     .u-image img{
-        max-width: 200px;
+        max-width: 500px;
     }
 </style>
 
