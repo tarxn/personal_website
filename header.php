@@ -7,9 +7,9 @@
     <title>Kavya Dashora</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/css.min.css" />
     <link rel="stylesheet" href="css/nicepage.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/css.min.css" />
 </head>
 <style>
     .scrolling-active {
