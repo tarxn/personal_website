@@ -15,7 +15,7 @@
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     }
 
-    .scrolling-off .nav a {
+    .scrolling-off .nav a,.scrolling-off .nav {
         color: #faf5f5;
         text-shadow: 1px 1px 10px black;
     }
