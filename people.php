@@ -17,11 +17,10 @@ include("header.php");
         People
     </h3>
     <?php
-
     $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
     $db = mysqli_select_db($connection, '');
 
-    $query = "SELECT * FROM `people`";
+    $query = "SELECT * FROM `technical staff`";
     $query_run = mysqli_query($connection, $query);
 
 
@@ -62,10 +61,7 @@ include("header.php");
 
     <?php
 
-    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
-    $db = mysqli_select_db($connection, '');
-
-
+    
     $query = "SELECT * FROM `technical staff`";
     $query_run = mysqli_query($connection, $query);
 

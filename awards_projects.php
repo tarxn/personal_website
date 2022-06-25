@@ -13,8 +13,8 @@ include("header.php");
 
     <?php
 
-    $connection = mysqli_connect("localhost", "root", "");
-    $db = mysqli_select_db($connection, 'u731109599_kavyadb');
+    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
+    $db = mysqli_select_db($connection, '');
 
     $query = "SELECT * FROM `awards_projects`";
     $query_run = mysqli_query($connection, $query);
