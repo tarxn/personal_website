@@ -23,12 +23,8 @@ include("header.php");
         $sr=0;
         while ($row = mysqli_fetch_array($query_run)) {
         ?>
-
                 <?php
-
                 $sr++;
-                
-
                 if ($sr%2==1)
                 {
                     if($rowcount!=$sr)
