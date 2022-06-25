@@ -37,6 +37,17 @@
         margin-left: 5px;
         display: block;
     }
+    .col-left-img img{
+        max-height: 700px;
+        max-width: 700px;
+        padding-bottom: 5px;
+    }
+
+    .col-right-img img{
+        max-height: 700px;
+        max-width: 700px;
+        padding-bottom: 5px;
+    }
 
     .col-right-img {
         width: 50%;

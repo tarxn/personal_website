@@ -31,14 +31,14 @@ include("header.php");
                     {
                     echo '<div class="p-2 border_card d-flex">
                     <div class="p-2 col-left-img">';
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="700px">
+                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>';
                     }
                     else
                     {
                         echo '<div class="p-2 border_card d-flex">
                         <div class="p-2 col-left-img ">';
-                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="700px" >
+                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image"  >
                         </div>';
                         echo '</div>';
                     }
