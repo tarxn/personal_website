@@ -10,6 +10,14 @@ include("header.php");
 
 <!-- Main Content Area -->
 <div class="container my-5 d-grid gap-5">
+
+    <div class="container-fluid">
+        <h3 style="color:blue">
+
+            People
+
+        </h3>
+    </div>
     <?php
 
     $connection = mysqli_connect("localhost", "root", "");
@@ -17,33 +25,72 @@ include("header.php");
 
     $query = "SELECT * FROM `people`";
     $query_run = mysqli_query($connection, $query);
-   
-   
+
+
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
 
         <div class="p-5 border_card row d-flex">
-            <div class="col-4 p-0 order-1"  style="z-index:1;" >
-                <div >
-                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
-        
-            </div>
+            <div class="col-4 p-0 order-1" style="z-index:1;">
+                <div>
+                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
+
+                </div>
             </div>
             <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
-                
+
                 <h4><?php echo $row['name']; ?></h4>
                 <p>
-                <?php echo $row['edu']; ?><br>
-                Area of interest:<?php echo $row['Area of Interest']; ?><br>
-                About me:<?php echo $row['About me']; ?><br>
-                <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
-                <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
+                    <?php echo $row['edu']; ?><br>
+                    Area of interest:<?php echo $row['Area of Interest']; ?><br>
+                    About me:<?php echo $row['About me']; ?><br>
+                    <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
+                    <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
                 </p>
             </div>
         </div>
     <?php
     }
+    mysqli_close($connection);
     ?>
+
+<div class="container-fluid">
+            <h3 style="color:blue">
+
+                Technical Staff
+
+            </h3>
+        </div>
+
+        <?php
+
+    $connection = mysqli_connect("localhost", "root", "");
+    $db = mysqli_select_db($connection, 'personal_website');
+
+    $query = "SELECT * FROM `technical staff`";
+    $query_run = mysqli_query($connection, $query);
+
+
+    while ($row = mysqli_fetch_array($query_run)) {
+    ?>
+
+        <div class="p-5 border_card row d-flex">
+            <div class="col-4 p-0 order-1" style="z-index:1;">
+                <div>
+                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['Image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
+
+                </div>
+            </div>
+            <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
+
+                <h4><?php echo $row['Name']; ?></h4>
+                
+            </div>
+        </div>
+    <?php
+    }
+    ?>
+
 
 </div>
 
