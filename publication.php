@@ -19,8 +19,8 @@
     </div> -->
     <div class="p-5 border_card">
     <?php
-        $connection=mysqli_connect("localhost","root","");
-        $db=mysqli_select_db($connection,'personal_website');
+        $connection = mysqli_connect("localhost", "u731109599_kavyadb","bUH:OXI9GZ]9", "u731109599_kavyadb");
+        $db=mysqli_select_db($connection,'');
 
         $query="SELECT * FROM `publication` ORDER BY `sno` DESC";
         $query_run=mysqli_query($connection,$query);
