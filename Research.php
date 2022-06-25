@@ -36,16 +36,14 @@ include("header.php");
                                         ?>
                                     </h2>
                                     <p class="u-align-center u-text u-text-2"><?php
-                                        echo $row['description'];
-                                        ?></p>
-                                    <a href="<?php echo $row['link']; ?>" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">learn more</a>
+                                                                                echo $row['description'];
+                                                                                ?></p>
+                                    <a href="<?php echo $row['link']; ?>" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">Read more</a>
                                 </div>
                             </div>
-                            <?php 
-                            echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" data-image-width="1080" data-image-height="1080">';
-                            ?>
-                            <div class="u-container-layout u-valign-middle u-container-layout-2" <?php echo 'src="data:image;base64,' . base64_encode($row['images']) . '"'; ?>  ></div>
-                            </img>
+                            <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1080" data-image-height="1080">
+                            <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image"  height="auto" >'; ?></div>
+                            </div>
                         </div>
                     </div>
                 <?php
