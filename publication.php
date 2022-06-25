@@ -29,11 +29,13 @@
         {
     ?>
     <div class="my-0 p-2">
-    
-        <h4><?php echo $row['authors']; ?></h4>
+    <ul>
+        <li><h4><?php echo $row['authors']; ?></h4>
         <p>
                 <?php echo $row['abstract']; ?>
     </p>
+        </li>
+    </ul>
     </div>
     <?php
         }
