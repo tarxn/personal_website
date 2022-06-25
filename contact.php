@@ -46,13 +46,6 @@ include("header.php");
 
     </div>
 
-
-
-
-
-
-
-
 </div>
 
 
@@ -91,8 +84,13 @@ include("header.php");
             </div>
         </form>
 
+<<<<<<< HEAD
+=======
     </div>
 
+    
+   
+    
 
 
 
