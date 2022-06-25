@@ -34,14 +34,14 @@ include("header.php");
                     if($rowcount!=$sr)
                     {
                     echo '<div class="p-2 border_card row">
-                    <div class="p-2 col-left-img gallery_img">';
+                    <div class="p-2 col-left-img">';
                     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>';
                     }
                     else
                     {
                         echo '<div class="p-2 border_card d-flex">
-                        <div class="p-2 col-left-img gallery_img">';
+                        <div class="p-2 col-left-img ">';
                         echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" ">
                         </div>';
                         echo '</div>';
@@ -49,7 +49,7 @@ include("header.php");
                 }
                 else 
                 {
-                    echo '<div class="p-2 col-right-img gallery_img">';
+                    echo '<div class="p-2 col-right-img ">';
 
                     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
                     </div>
