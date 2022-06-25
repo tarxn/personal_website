@@ -11,14 +11,14 @@ include("header.php");
 <!-- Main Content Area -->
 <div class="container my-3 d-grid gap-3">
 
-    
-        <h3 style="color:blue">
 
-            People
-        </h3>
+    <h3 style="color:blue">
+
+        People
+    </h3>
     <?php
 
-    $connection = mysqli_connect("localhost", "u731109599_kavyadb","bUH:OXI9GZ]9", "u731109599_kavyadb");
+    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
     $db = mysqli_select_db($connection, '');
 
     $query = "SELECT * FROM `people`";
@@ -52,18 +52,19 @@ include("header.php");
     mysqli_close($connection);
     ?>
 
-<div class="container-fluid">
-            <h3 style="color:blue">
+    <div class="container-fluid">
+        <h3 style="color:blue">
 
-                Technical Staff
+            Technical Staff
 
-            </h3>
-        </div>
+        </h3>
+    </div>
 
-        <?php
+    <?php
 
-    
+    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
     $db = mysqli_select_db($connection, '');
+
 
     $query = "SELECT * FROM `technical staff`";
     $query_run = mysqli_query($connection, $query);
@@ -82,7 +83,7 @@ include("header.php");
             <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
 
                 <h4><?php echo $row['Name']; ?></h4>
-                
+
             </div>
         </div>
     <?php
