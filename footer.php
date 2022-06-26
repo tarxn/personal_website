@@ -28,10 +28,10 @@
         <!-- Right -->
     </section>
     <hr>
-    <div class="container my-4">
+    <div class="container ">
         <div class="row container">
             <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <div class="col-lg-2 my-4 col-md-6 mb-4 mb-md-0">
 
                 <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="145" class="d-inline-block align-text-center">
 
