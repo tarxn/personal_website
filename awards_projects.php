@@ -8,8 +8,43 @@ include("header.php");
     </div>
 </div>
 
+
+
+
+<div class="container">
+    <h3 style="color:blue">
+        Awards
+
+    </h3>
+    <div class="container-fluid">
+        <div class="p-5 border_card row d-flex">
+            <ul>
+                <h4>
+                    Best innovation award- UNDP-2021.
+                </h4>
+                <h4>
+                    Innovation in Food award- PETA-2020.
+                </h4>
+                <h4>
+                    Best Women Scientist Award-SRBS-2020.
+                </h4>
+
+
+            </ul>
+
+
+
+        </div>
+    </div>
+</div>
+
 <!-- Main Content Area -->
 <div class="container">
+    <h3 style="color:blue">
+
+        Projects
+
+    </h3>
 
     <?php
 
@@ -24,11 +59,7 @@ include("header.php");
     ?>
 
         <div class="p-5 my-5 border_card">
-            <h3><?php echo $row['title']; ?></h3>
-            <p>
-                <?php echo $row['description']; ?>
-
-            </p>
+            <h3><?php echo $row['description']; ?></h3>
         </div>
 
     <?php
