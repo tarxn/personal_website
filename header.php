@@ -71,7 +71,7 @@
     }
     .u-image img{
         width: 500px;
-        height:auto;
+        height:350px;
     }
 </style>
 
