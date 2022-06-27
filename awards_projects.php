@@ -18,7 +18,7 @@ include("header.php");
     </h3>
 </div>
 
-    <div class="p-3 border_card ">
+<div class="p-3 border_card ">
     <div class="container">
         <ul>
             <li>
@@ -54,27 +54,31 @@ include("header.php");
 
     </h3>
 </div>
-<div class="p-3 my-3 border_card">
-    <?php
+<div class=" p-3 my-3 border_card">
+    <div class="conatiner">
+        <?php
 
-    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
-    $db = mysqli_select_db($connection, '');
+        $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
+        $db = mysqli_select_db($connection, '');
 
-    $query = "SELECT * FROM `awards_projects`";
-    $query_run = mysqli_query($connection, $query);
+        $query = "SELECT * FROM `awards_projects`";
+        $query_run = mysqli_query($connection, $query);
 
 
-    while ($row = mysqli_fetch_array($query_run)) {
-    ?>
-<div>
-        <ul>
-           <li> <p><?php echo $row['description']; ?></p></li>
+        while ($row = mysqli_fetch_array($query_run)) {
+        ?>
 
-        </ul></div>
-    <?php
-    }
-    ?>
+            <ul>
+                <li>
+                    <p><?php echo $row['description']; ?></p>
+                </li>
 
+            </ul>
+        <?php
+        }
+        ?>
+
+    </div>
 </div>
 
 
