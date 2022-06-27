@@ -80,10 +80,6 @@ include("header.php");
             <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
 
             <h4><?php echo $row['name']; ?></h4>
-                <p>
-                    
-                </p>
-
             </div>
         </div>
     <?php
