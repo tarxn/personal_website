@@ -54,31 +54,31 @@ include("header.php");
 
     </h3>
 </div>
-<div class=" p-3  border_card container">
+<div class=" p-3  border_card ">
+    <div class="conatiner">
+        <?php
 
-    <?php
+        $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
+        $db = mysqli_select_db($connection, '');
 
-    $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
-    $db = mysqli_select_db($connection, '');
-
-    $query = "SELECT * FROM `awards_projects`";
-    $query_run = mysqli_query($connection, $query);
+        $query = "SELECT * FROM `awards_projects`";
+        $query_run = mysqli_query($connection, $query);
 
 
-    while ($row = mysqli_fetch_array($query_run)) {
-    ?>
-        <div class="conatiner">
+        while ($row = mysqli_fetch_array($query_run)) {
+        ?>
+
             <ul>
                 <li>
                     <p><?php echo $row['description']; ?></p>
                 </li>
 
             </ul>
-        </div>
-    <?php
-    }
-    ?>
 
+        <?php
+        }
+        ?>
+    </div>
 
 </div>
 
