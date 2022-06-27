@@ -15,7 +15,7 @@ include("header.php");
 
         <div>
             <div style="color:#008080; ">
-                <img src="images/building.png" height="60px" width="auto">
+                <img src="images/office.png" height="60px" width="auto">
                 <h2>Office:</h2>
             </div>
             <div>
