@@ -41,7 +41,7 @@ include("header.php");
                                 </div>
                             </div>
                             <div class="container u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" >
-                                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image"  height="auto" >'; ?></div>
+                                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image"  >'; ?></div>
                         </div>
                     </div>
                 </div>
