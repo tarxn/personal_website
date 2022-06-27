@@ -30,6 +30,20 @@ include("header.php");
                 </h5>
             </div>
         </div>
+        <div>
+            <div style="color:#008080; ">
+                <img src="images/building.png" height="60px" width="auto">
+                <h2>Lab:</h2>
+            </div>
+            <div>
+                <h5 style="font-family: 'Aileron', Regular;">
+                    Agri-Nanobiotechnology Lab,
+                    <br> Room number 280, Block III,
+                    <br>IIT Delhi-110016
+
+                </h5>
+            </div>
+        </div>
 
         <br> <br>
 

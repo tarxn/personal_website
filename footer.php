@@ -41,7 +41,7 @@
             <!--Grid column-->
             <div class="col-lg-10 col-md-6 mb-4 mb-md-0 p-2">
                 <h3>Centre for Rural Development & Technology, IIT Delhi</h3>
-                <p>Address: Agri-Nanobiotechnology Lab, Room number 280, Block 3, IIT Delhi-110016 <br> Email: kdashora@rdat.iitd.ac.in <br>
+                <p>Address: Agri-Nanobiotechnology Lab, Room number 280, Block III, IIT Delhi-110016 <br> Email: kdashora@rdat.iitd.ac.in <br>
                     Phone: 2659-1133 |
                     Mobile: 9968354317
                 </p>
