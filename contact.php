@@ -50,7 +50,7 @@ include("header.php");
 
         <div>
             <div style="color:#008080;">
-                <img src="images/email.png" height="50px" width="auto">
+                <img src="images/mail.png" height="50px" width="auto">
                 <h2>Contact:</h2>
             </div>
             <h5 style="font-family: 'Aileron', Regular;">Email: kdashora@rdat.iitd.ac.in<br>
