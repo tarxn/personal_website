@@ -66,11 +66,11 @@ include("header.php");
 
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
-
+<div>
         <ul>
            <li> <p><?php echo $row['description']; ?></p></li>
 
-        </ul>
+        </ul></div>
     <?php
     }
     ?>
