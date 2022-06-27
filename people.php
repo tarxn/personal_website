@@ -81,11 +81,7 @@ include("header.php");
 
             <h4><?php echo $row['name']; ?></h4>
                 <p>
-                    <?php echo $row['edu']; ?><br>
-                    Area of interest:<?php echo $row['Area of Interest']; ?><br>
-                    About me:<?php echo $row['About me']; ?><br>
-                    <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
-                    <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
+                    
                 </p>
 
             </div>
@@ -97,7 +93,7 @@ include("header.php");
 <div class="container-fluid">
         <h3 style="color:blue">
 
-            Technical Staff
+            Alumni
 
         </h3>
     </div>
