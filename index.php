@@ -77,6 +77,29 @@ include("header.php");
 
         </p>
     </div>
+
+    <div class="p-5 my-5 border_card">
+        <h3>FROM BIODIVERSITY HOTSPOTS TO NANOBIOCHEMICALS</h3>
+        <p>
+            Her interest in underutilized and endangered medicinal plants and their biotic stress helped her to contribute for National Gene Bank of India at National Bureau of Plant Genetic Resources. There she did extensive survey in Sahayadri Mountains of Western Ghats (One of the biodiversity hotspots of India) to study about the germination potential of wild varieties of medicinal, endangered and rare plants along with the host parasite interaction, pest predator ratio and their threshold limits for natural pest management.
+        </p>
+    </div>
+
+    <div class="p-5 my-5 border_card">
+        <h3>FROM BIODYNAMIC IPM TO NANOTECHNOLOGY FOR SAFE AGRICULTURE</h3>
+        <p>
+            Prof Dashora had a dual interest from biodynamic IPM implemented in large plantation crops ensuring the natural ecological balance of pest-predator, natural enemy with green ways for sustainable agriculture and the wonderful, unexplored world of microbes under the microscope. With these interests, she developed translational mode of research to translate the best lab practices into best land practices. Driven by a desire to understand how things work at micro and subsequently nano level in plants-soil-microbe interaction, she further went on to pursue research in nanotechnology and the impact of nanoparticles on soil and microbial enzymes, nanotoxicity, green nanosynthesis, and regulation of nanoparticles in agriculture.
+        </p>
+    </div>
+
+    <div class="p-5 my-5 border_card">
+        <h3>FROM VISITING UNDERNOURISHED COUNTRIES TO DEVELOPING PLANT BASED PROTEINS FOR SUSTAINABLE NUTRITION</h3>
+        <p>
+            Prof Dashora did food security and plant protection work in mostly developing and underdeveloped countries where availability and accessibility of food was a constant concern in all age groups. She explored the local, low cost options of proteins having similarities with animal proteins and is credited with the development of first ever plant based egg. Her further research is ongoing on developing other mock meat products from plants. For this achievement, she was conferred upon both National and International awards.
+        </p>
+    </div>
+
+
 </div>
 
 <?php
