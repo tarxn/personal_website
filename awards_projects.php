@@ -54,7 +54,7 @@ include("header.php");
 
     </h3>
 </div>
-<div class=" p-3  border_card">
+<div class=" p-3  border_card container">
 
     <?php
 
