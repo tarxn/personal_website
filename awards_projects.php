@@ -64,7 +64,6 @@ include("header.php");
 
     <?php
     }
-    mysqli_close($connection);
     ?>
 </div>
 
