@@ -16,32 +16,26 @@ include("header.php");
         Awards
 
     </h3>
-</div>
-<div class="container-fluid">
-    <div class="p-5 border_card ">
+    </div>
+    <div class="container-fluid">
+        <div class="p-5 border_card ">
+            <ul>
+               <li> <h4>
+                    Best innovation award- UNDP-2021.
+                </h4></li>
+                <li><h4>
+                    Innovation in Food award- PETA-2020.
+                </h4></li>
+                <li><h4>
+                    Best Women Scientist Award-SRBS-2020.
+                </h4></li>
 
-        <ul>
-            <h4>
-                Best innovation award- UNDP-2021.
-            </h4>
-        </ul>
-        <ul>
-            <h4>
-                Innovation in Food award- PETA-2020.
-            </h4>
-        </ul>
-        <ul>
-            <h4>
-                Best Women Scientist Award-SRBS-2020.
-            </h4>
-        </ul>
+
+            </ul>
 
 
 
-
-
-
-
+        
     </div>
 </div>
 
