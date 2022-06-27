@@ -30,9 +30,10 @@ include("header.php");
                 </h5>
             </div>
         </div>
+        <br><br>
         <div>
             <div style="color:#008080; ">
-                <img src="images/building.png" height="60px" width="auto">
+                <img src="images/lab.png" height="60px" width="auto">
                 <h2>Lab:</h2>
             </div>
             <div>
