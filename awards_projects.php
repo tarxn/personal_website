@@ -55,7 +55,7 @@ include("header.php");
     </h3>
 </div>
 <div class=" p-3  border_card ">
-    <div class="conatiner">
+    <div class="container">
         <?php
 
         $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
