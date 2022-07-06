@@ -134,7 +134,8 @@ include("header.php");
                 <p>
                     <?php echo $row['edu']; ?><br>
                     Area of interest:<?php echo $row['area of interest']; ?><br>
-                    About me123:<?php echo $row['about']; ?><br>
+                    About me:<?php echo $row['about']; ?><br>
+                
                     <a href="<?php echo $row['google scholar']; ?>" class="link-primary">Google Scholar</a> |
                     <a href="<?php echo $row['researchgate']; ?>" class="link-primary"> Research Gate </a><br>
                 </p>
