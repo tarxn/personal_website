@@ -10,7 +10,7 @@ include("header.php");
 
 <!-- Main Content Area -->
 <div class="container my-3 d-grid gap-3">
-    <h2 >
+    <h2>
 
         People
     </h2>
@@ -27,19 +27,19 @@ include("header.php");
         <div class="p-4 card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
+                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <h3 class="card-title"><?php echo $row['name']; ?></h3>
                         <p class="card-text">
-                        <?php echo $row['edu']; ?><br>
-                    Area of interest:<?php echo $row['Area of Interest']; ?><br>
-                    About me:<?php echo $row['About me']; ?><br>
-                    <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
-                    <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
+                            <?php echo $row['edu']; ?><br>
+                            Area of interest:<?php echo $row['Area of Interest']; ?><br>
+                            About me:<?php echo $row['About me']; ?><br>
+                            <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
+                            <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ include("header.php");
 
 
 
-        
+
     <?php
     }
     mysqli_close($connection);
@@ -76,12 +76,12 @@ include("header.php");
         <div class="p-4 card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
+                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['Image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h3 class="card-title"><?php echo $row['name']; ?></h3>
-                        
+                        <h3 class="card-title"><?php echo $row['Name']; ?></h3>
+
                     </div>
                 </div>
             </div>
@@ -109,25 +109,25 @@ include("header.php");
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
 
-<div class="p-4 card mb-3" style="max-width: 100%;">
+        <div class="p-4 card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
+                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
 
-                <h3><?php echo $row['name']; ?></h3>
-                <p>
-                    <?php echo $row['edu']; ?><br>
-                    Area of interest:<?php echo $row['area of interest']; ?><br>
-                    About me:<?php echo $row['about']; ?><br>
+                        <h3><?php echo $row['name']; ?></h3>
+                        <p>
+                            <?php echo $row['edu']; ?><br>
+                            Area of interest:<?php echo $row['area of interest']; ?><br>
+                            About me:<?php echo $row['about']; ?><br>
 
-                    <a href="<?php echo $row['google scholar']; ?>" class="link-primary">Google Scholar</a> |
-                    <a href="<?php echo $row['researchgate']; ?>" class="link-primary"> Research Gate </a><br>
-                </p>
+                            <a href="<?php echo $row['google scholar']; ?>" class="link-primary">Google Scholar</a> |
+                            <a href="<?php echo $row['researchgate']; ?>" class="link-primary"> Research Gate </a><br>
+                        </p>
 
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
