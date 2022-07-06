@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/css.min.css" />
 </head>
 <style>
+    .card{
+    background-color: #f7f7f7;
+}
     .scrolling-active {
         background-color: #008080;
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
