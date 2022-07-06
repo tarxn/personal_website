@@ -27,13 +27,19 @@ include("header.php");
         <div class="card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="...">
+                <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h4 class="card-title"><?php echo $row['name']; ?></h4>
+                        <p class="card-text">
+                        <?php echo $row['edu']; ?><br>
+                    Area of interest:<?php echo $row['Area of Interest']; ?><br>
+                    About me:<?php echo $row['About me']; ?><br>
+                    <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
+                    <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -41,25 +47,7 @@ include("header.php");
 
 
 
-        <div class="p-5 border_card row d-flex">
-            <div class="col-4 p-0 order-1" style="z-index:1;">
-                <div>
-                    <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
-
-                </div>
-            </div>
-            <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
-
-                <h4><?php echo $row['name']; ?></h4>
-                <p>
-                    <?php echo $row['edu']; ?><br>
-                    Area of interest:<?php echo $row['Area of Interest']; ?><br>
-                    About me:<?php echo $row['About me']; ?><br>
-                    <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
-                    <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
-                </p>
-            </div>
-        </div>
+        
     <?php
     }
     mysqli_close($connection);
