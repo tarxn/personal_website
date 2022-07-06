@@ -24,7 +24,7 @@ include("header.php");
 
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
-        <div class="card mb-3" style="max-width: 100%;">
+        <div class="p-5 card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
                 <?php echo '<img class="d-inline-block" src="data:image;base64,' . base64_encode($row['image']) . '"  alt="Image" width="220px" height="auto" >'; ?>
