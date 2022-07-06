@@ -54,11 +54,11 @@ include("header.php");
     ?>
 
     <div class="container-fluid">
-        <h3 style="color:blue">
+        <h2>
 
             Technical Staff
 
-        </h3>
+        </h2>
     </div>
 
 
@@ -91,11 +91,11 @@ include("header.php");
     ?>
 
     <div class="container-fluid">
-        <h3 style="color:blue">
+        <h2>
 
             Alumni
 
-        </h3>
+        </h2>
     </div>
 
     <?php
