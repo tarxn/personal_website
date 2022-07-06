@@ -38,7 +38,7 @@ include("header.php");
 <hr>
 
 <div class="container">
-
+    <h3>Scrolling News and Events</h3>
     <div class="p-5 my-5 border_card">
         <marquee behavior="scroll" direction="up" scrollamount="3">
             <h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
