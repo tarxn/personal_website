@@ -39,8 +39,8 @@ include("header.php");
 
 <div class="container">
     <h3>Scrolling News and Events</h3>
-    <div class="p-5 my-5 border_card" style="max-height:400px ;">
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="max-height:340px ;">
+    <div class="p-5 my-5 border_card" style="max-height:380px ;">
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="max-height:320px ;">
             <h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
             <h5>Prof. Vijay has been appointed as Member of Science and Engineering Research Board (SERB), DST, India, 16th March 2022 </h5><br>
             <h5>Prof. Vijay has been awarded India Green Energy Awards, 2020 by Indian Federation of Green Energy (IFGE) </h5>
