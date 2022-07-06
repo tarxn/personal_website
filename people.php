@@ -10,10 +10,10 @@ include("header.php");
 
 <!-- Main Content Area -->
 <div class="container my-3 d-grid gap-3">
-    <h4 >
+    <h2 >
 
         People
-    </h4>
+    </h2>
     <?php
     $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
     $db = mysqli_select_db($connection, '');
@@ -31,7 +31,7 @@ include("header.php");
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h4 class="card-title"><?php echo $row['name']; ?></h4>
+                        <h3 class="card-title"><?php echo $row['name']; ?></h3>
                         <p class="card-text">
                         <?php echo $row['edu']; ?><br>
                     Area of interest:<?php echo $row['Area of Interest']; ?><br>
@@ -80,7 +80,7 @@ include("header.php");
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h4 class="card-title"><?php echo $row['name']; ?></h4>
+                        <h3 class="card-title"><?php echo $row['name']; ?></h3>
                         
                     </div>
                 </div>
@@ -117,7 +117,7 @@ include("header.php");
                 <div class="col-md-8">
                     <div class="card-body">
 
-                <h4><?php echo $row['name']; ?></h4>
+                <h3><?php echo $row['name']; ?></h3>
                 <p>
                     <?php echo $row['edu']; ?><br>
                     Area of interest:<?php echo $row['area of interest']; ?><br>
