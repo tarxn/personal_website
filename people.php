@@ -24,20 +24,20 @@ include("header.php");
 
     while ($row = mysqli_fetch_array($query_run)) {
     ?>
-<div class="card mb-3" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -93,7 +93,7 @@ include("header.php");
             </div>
             <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
 
-            <h4><?php echo $row['Name']; ?></h4>
+                <h4><?php echo $row['Name']; ?></h4>
 
 
             </div>
@@ -102,7 +102,7 @@ include("header.php");
     }
     ?>
 
-<div class="container-fluid">
+    <div class="container-fluid">
         <h3 style="color:blue">
 
             Alumni
@@ -130,7 +130,7 @@ include("header.php");
             </div>
             <div class="col-8 py-3 order-2" style="z-index:1; position:relative; ">
 
-            <h4><?php echo $row['name']; ?></h4>
+                <h4><?php echo $row['name']; ?></h4>
                 <p>
                     <?php echo $row['edu']; ?><br>
                     Area of interest:<?php echo $row['area of interest']; ?><br>
@@ -150,14 +150,16 @@ include("header.php");
 
 
 <marquee behavior="scroll" direction="up" scrollamount="3">
-					<h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
-					<h5>Prof. Vijay has been appointed as Member of Science and Engineering Research Board (SERB), DST, India, 16th March 2022 </h5><br>
-					<h5>Prof. Vijay has been awarded India Green Energy Awards, 2020 by Indian Federation of Green Energy (IFGE) </h5>
-					<br><<h5>Prof. Vijay has received Pt Deen Dayal Upadhyaya Recognition for Re-Engineering INDIA 2020 </h5><br>
-							<br>
-							<br>
-							<br>
-							<br></marquee>
+    <h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
+    <h5>Prof. Vijay has been appointed as Member of Science and Engineering Research Board (SERB), DST, India, 16th March 2022 </h5><br>
+    <h5>Prof. Vijay has been awarded India Green Energy Awards, 2020 by Indian Federation of Green Energy (IFGE) </h5>
+    <br>
+    <<h5>Prof. Vijay has received Pt Deen Dayal Upadhyaya Recognition for Re-Engineering INDIA 2020 </h5><br>
+        <br>
+        <br>
+        <br>
+        <br>
+</marquee>
 
 
 <?php
