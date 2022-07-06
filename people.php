@@ -73,6 +73,7 @@ include("header.php");
         </h3>
     </div>
 
+
     <?php
 
     $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
@@ -135,7 +136,7 @@ include("header.php");
                     <?php echo $row['edu']; ?><br>
                     Area of interest:<?php echo $row['area of interest']; ?><br>
                     About me:<?php echo $row['about']; ?><br>
-                
+
                     <a href="<?php echo $row['google scholar']; ?>" class="link-primary">Google Scholar</a> |
                     <a href="<?php echo $row['researchgate']; ?>" class="link-primary"> Research Gate </a><br>
                 </p>
@@ -148,21 +149,6 @@ include("header.php");
 
 
 </div>
-
-
-<marquee behavior="scroll" direction="up" scrollamount="3">
-    <h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
-    <h5>Prof. Vijay has been appointed as Member of Science and Engineering Research Board (SERB), DST, India, 16th March 2022 </h5><br>
-    <h5>Prof. Vijay has been awarded India Green Energy Awards, 2020 by Indian Federation of Green Energy (IFGE) </h5>
-    <br>
-    <<h5>Prof. Vijay has received Pt Deen Dayal Upadhyaya Recognition for Re-Engineering INDIA 2020 </h5><br>
-        <br>
-        <br>
-        <br>
-        <br>
-</marquee>
-
-
 <?php
 include("footer.php");
 ?>
