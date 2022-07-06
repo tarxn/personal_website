@@ -36,8 +36,8 @@ include("header.php");
 
 </div>
 <hr>
-<div class="container">
-    <marquee behavior="scroll" direction="up" scrollamount="3">
+<div class="p-5 my-5 border_card">
+<marquee behavior="scroll" direction="up" scrollamount="3">
         <h5>IITD AA President Dr. Kalpen Shukla facilitated Prof. Vijay on eve on AGM and Award event on 30.4.2022 </h5><br>
         <h5>Prof. Vijay has been appointed as Member of Science and Engineering Research Board (SERB), DST, India, 16th March 2022 </h5><br>
         <h5>Prof. Vijay has been awarded India Green Energy Awards, 2020 by Indian Federation of Green Energy (IFGE) </h5>
@@ -49,6 +49,11 @@ include("header.php");
         <br>
         <br>
     </marquee>
+
+
+</div>
+<div class="container">
+    
 
     <div class="p-5 my-5 border_card">
 
