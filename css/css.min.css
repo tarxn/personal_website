@@ -41,10 +41,12 @@
 
     width: 100%;
     height: auto;
-    background-color: #eff2f5;
+    background-color: #f7f7f7;
 }
 
-
+.card{
+    background-color: #f7f7f7;
+}
 
 .form_card_r {
     width: auto;
