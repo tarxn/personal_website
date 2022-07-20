@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/nicepage.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/css.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ibarra+Real+Nova&family=Lobster+Two:wght@700&family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <style>
     .card{
@@ -28,6 +31,15 @@
     p {
         font-size: 20px;
     }
+    h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'DM Serif Display', Regular;
+}
 
     .gallery_img {
         max-width: 40px;

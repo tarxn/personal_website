@@ -16,7 +16,7 @@ include("header.php");
             <img class="pers_img" src="images/kavya.jpg" class="d-inline-block">
         </div>
         <div class="col-right container">
-            <h2>Prof. Kavya Dashora</h2>
+            <h2 style="font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora</h2>
 
             <p>
 
@@ -38,7 +38,7 @@ include("header.php");
 <hr>
 
 <div class="container">
-    <h3>Scrolling News and Events</h3>
+    <h3>News and Events</h3>
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
         <marquee behavior="scroll" direction="up" scrollamount="3" style="max-height:320px ;">
 
