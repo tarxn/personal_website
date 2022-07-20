@@ -41,6 +41,21 @@
 
         font-family: 'DM Serif Display',  Regular;
     }
+    .col-left {
+    width: 20%;
+    flex: left;
+
+}
+
+.col-right {
+    width: 80%;
+    flex: right;
+}
+.pers_img {
+    width: 220px;
+    height: auto;
+
+}
 
     .gallery_img {
         max-width: 40px;

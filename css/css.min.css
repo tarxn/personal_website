@@ -30,11 +30,7 @@
     display: inline-block;
 }
 
-.pers_img {
-    width: 220px;
-    height: auto;
 
-}
 
 
 .border_card {
@@ -52,16 +48,7 @@
     background-color: #ffffff;
 }
 
-.col-left {
-    width: 20%;
-    flex: left;
 
-}
-
-.col-right {
-    width: 80%;
-    flex: right;
-}
 
 
 .f-left-col {
