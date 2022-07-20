@@ -30,17 +30,17 @@
 
     p {
         font-size: 20px;
-        text-align: justify;d
+        text-align: justify;sd
     }
     h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
 
-    font-family: 'DM Serif Display', Regular;
-}
+        font-family: 'DM Serif Display',  Regular;
+    }
 
     .gallery_img {
         max-width: 40px;
