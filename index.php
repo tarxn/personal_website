@@ -74,7 +74,7 @@ include("header.php");
     </div>
     <div class="p-5 my-5 border_card">
 
-        <p> A <span class="first-word" style="font-family: 'DM Serif Display', Regular;"> JOURNEY </span>
+        <p> A <span class="first-word" style="font-family: 'DM Serif Display', Regular;"> Jsdourney </span>
             from tiny hands on the globe to a giant leap across the planet……….
 
             <br>Even as young as an eight-year-old, Prof Kavya Dashora was very clear that she wanted to travel across the planet and explore the unexplored. Holding her tiny hands and walking with her little feet with her father who is her first guiding light, she got a model of globe and then firmly set her eyes on the target with no and never looking back. Thoroughly backed by her family of academicians, she had always raised the bar for herself to achieve more and maximum.
