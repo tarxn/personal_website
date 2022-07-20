@@ -31,7 +31,7 @@
 }
 
 .pers_img {
-    width: 305px;
+    width: 220px;
     height: auto;
 
 }
@@ -53,13 +53,13 @@
 }
 
 .col-left {
-    width: 30%;
+    width: 20%;
     flex: left;
 
 }
 
 .col-right {
-    width: 70%;
+    width: 80%;
     flex: right;
 }
 
