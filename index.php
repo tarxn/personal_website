@@ -18,7 +18,7 @@ include("header.php");
         <div class="col-right container">
             <h2 style="font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora</h2>
 
-            <p>sd
+            <p>
 
                 Prof Kavya Dashora is on an extraordinary and multidimensional journey, ranging from microscopic to nano-scopic world. She studies different aspects of nanosynthesis, their residue, nanotoxicity, regulations and approach to green and sustainable crop production.
                 Her work also encompasses the discovery of physicochemical properties and bioprocessing of lignolytic enzymes , impact of nanoparticles on plant metabolites and microbial enzymes.
