@@ -58,7 +58,7 @@ include("header.php");
 
 
 
-                <h5><?php echo $row['news']; ?> </h5><br>
+                <p><?php echo $row['news']; ?> </p><br>
 
             <?php
             }
