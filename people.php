@@ -35,7 +35,7 @@ include("header.php");
                         <p class="card-text">
                             <?php echo $row['edu']; ?><br>
                             Area of interest:<?php echo $row['Area of Interest']; ?><br>
-                            About me:<?php echo $row['About me']; ?><br>
+                            About me:<i><?php echo $row['About me']; ?></i><br>
                             <a href="<?php echo $row['Google scholar']; ?>" class="link-primary">Google Scholar</a> |
                             <a href="<?php echo $row['Research Gate']; ?>" class="link-primary"> Research Gate </a><br>
                         </p>
@@ -121,7 +121,7 @@ include("header.php");
                         <p>
                             <?php echo $row['edu']; ?><br>
                             Area of interest:<?php echo $row['area of interest']; ?><br>
-                            About me:<?php echo $row['about']; ?><br>
+                            About me:<i><?php echo $row['about']; ?></i><br>
 
                             <a href="<?php echo $row['google scholar']; ?>" class="link-primary">Google Scholar</a> |
                             <a href="<?php echo $row['researchgate']; ?>" class="link-primary"> Research Gate </a><br>
