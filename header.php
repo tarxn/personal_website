@@ -107,7 +107,7 @@
     }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
-            height: 5rem;
+            height: 4rem;
         }
     }
 </style>
