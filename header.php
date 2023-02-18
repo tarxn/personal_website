@@ -105,6 +105,11 @@
         width: 500px;
         height:300px;
     }
+    @media only screen and (min-width:768px) {
+        .scrolling-active .nav {
+            height: 3rem;
+        }
+    }
 </style>
 
 <body>
@@ -119,7 +124,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" style="color: blue;">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
