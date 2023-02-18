@@ -144,7 +144,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
                 <div class="offcanvas-header mt-3">  
-                    <button class="btn btn-outline-danger btn-close float-right"> &times Close </button>
+                    <button class="btn btn-outline-danger"> &times Close </button>
                     <h5 class="py-2 text-white">Prof. Kavya Dashora</h5>
                 </div>
                 <ul class="navbar-nav" style="color: blue;">
