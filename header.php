@@ -109,6 +109,24 @@
         .scrolling-active .nav {
             height: 4rem;
         }
+        .offcanvas-header{ display:block; }
+        .navbar-collapse {
+            position: fixed;
+            top:0; 
+            bottom: 0;
+            left: 100%;
+            width: 100%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            overflow-y: auto;
+            visibility: hidden;
+            background-color: black;
+            transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+        }
+        .navbar-collapse.show {
+            visibility: visible;
+            transform: translateX(-100%);
+        }
     }
 </style>
 
