@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
     <title>Kavya Dashora</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -123,7 +124,7 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="people.php">People</a>
+                        <a class="nav-link " href="people.php">People_</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="publication.php">Publication</a>
