@@ -105,6 +105,7 @@
         width: 500px;
         height:300px;
     }
+    offcanvas-header{ display:none; }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
@@ -142,6 +143,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
+                <div class="offcanvas-header mt-3">  
+                    <button class="btn btn-outline-danger btn-close float-right"> &times Close </button>
+                    <h5 class="py-2 text-white">Prof. Kavya Dashora</h5>
+                </div>
                 <ul class="navbar-nav" style="color: blue;">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
