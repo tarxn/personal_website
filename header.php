@@ -105,7 +105,7 @@
         width: 500px;
         height:300px;
     }
-    @media only screen and (max-width:700px) {
+    @media only screen and (max-width:450px) {
         .scrolling-active .nav {
             height: 5rem;
         }
