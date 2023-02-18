@@ -131,7 +131,7 @@
     }
 </style>
 
-<body>
+<body class="offcanvas-active">
     <!-- Navbar  -->
 
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
