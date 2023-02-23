@@ -3,7 +3,7 @@ include("header.php");
 ?>
 
 <!-- Banner Image  -->
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="font-family:'AXIS', Extra Bold;">
+<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" style="background-image: url('images/bannerimg.jpg'); font-family:'AXIS', Extra Bold;">
     <div class="content text-center">
         <h1 class="text-white">Home</h1>
     </div>
