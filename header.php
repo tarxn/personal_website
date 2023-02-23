@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ibarra+Real+Nova&family=Lobster+Two:wght@700&family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <style>
     .card{
@@ -150,8 +149,8 @@
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
         <div class="container dmmy nav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon my-toggler">yes yes</span>
+            
+        <span class="navbar-toggler-icon my-toggler">yes yes<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"></span>
     </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
