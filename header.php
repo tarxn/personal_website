@@ -150,9 +150,8 @@
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
         <div class="container dmmy nav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon my-toggler"></span>
-    </button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"></button>
+            <span class="navbar-toggler-icon my-toggler"><h2>Menu</h2></span>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
