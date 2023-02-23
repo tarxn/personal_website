@@ -147,13 +147,12 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
-                <h5 class="py-2 text-white">Prof. Kavya Dashora</h5>
                 <ul class="navbar-nav" style="color: blue;">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="people.php">People_</a>
+                        <a class="nav-link " href="people.php">People</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="publication.php">Publication</a>
