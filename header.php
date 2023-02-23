@@ -151,7 +151,7 @@
         <div class="container dmmy nav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon my-toggler">yes yes</span>
+        <span class="navbar-toggler-icon my-toggler"></span>
     </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
