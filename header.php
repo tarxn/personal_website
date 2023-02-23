@@ -110,6 +110,13 @@
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
     offcanvas-header{ display:none; }
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
@@ -128,13 +135,7 @@
             background-color: black;
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
         }
-        .navbar-collapse.show {
-            visibility: visible;
-            transform: translateX(-100%);
-        }
-        .custom-toggler .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        }
+        
 
         /* .custom-toggler.navbar-toggler {
             border-color: rgb(255,102,203);
@@ -150,7 +151,7 @@
         <div class="container dmmy nav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon my-toggler"></span>
+        <span class="navbar-toggler-icon my-toggler">yes yes</span>
     </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
