@@ -170,6 +170,14 @@
         border: 1px black;
         border-radius: .10rem;
         transition: box-shadow .15s ease-in-out
+    }.navbar-toggler-icon {
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%
     }
 </style>
 
