@@ -24,7 +24,6 @@ include("header.php");
                             Her work also encompasses the discovery of physicochemical properties and bioprocessing of lignolytic enzymes , impact of nanoparticles on plant metabolites and microbial enzymes.
                             Her key achievement is also highlight as development of first ever plant based egg in India. She works on different aspects of plant based meats to ensure sustainable nutrition to the growing population.
                             Her work essentially involves achieving SDGs in all her projects.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 </div>
             </div>
