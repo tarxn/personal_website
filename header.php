@@ -126,9 +126,7 @@
             visibility: hidden;
             background-color: black;
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
-        }
-        
-        
+        }  
     }
 </style>
 
