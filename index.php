@@ -15,7 +15,7 @@ include("header.php");
             <div class="row g-0">
                 <div class="col-md-2">
                 <img src="images/kavya_.JPG" class="img-fluid rounded-start" style=" width: 220px;
-                height: auto; padding-top:3rem;" alt="...">
+                height: auto; padding-top:2rem;" alt="...">
                 </div>
                 <div class="col-md-10">
                 <div class="card-body">
@@ -56,7 +56,7 @@ include("header.php");
 </div>
 <hr>
 
-<div class="container">
+<div class="container-fluid ">
     <h3>News and Events</h3>
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
         <marquee behavior="scroll" direction="up" scrollamount="4" style="max-height:320px ; color:blue;">
