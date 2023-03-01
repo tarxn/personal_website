@@ -107,7 +107,7 @@
         height:300px;
     }
     offcanvas-header{ display:none; }
-    @media only screen and (max-width:1000px) {
+    /* @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
         }
@@ -125,7 +125,7 @@
             background-color: black;
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
         }  
-    }
+    } */
     
     /* .topnav {
     overflow: hidden;
