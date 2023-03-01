@@ -42,7 +42,7 @@ include("header.php");
             $db = mysqli_select_db($connection, '');
             $query = "SELECT * FROM `news`";
             $query_run = mysqli_query($connection, $query);
-            while ($row = mysqli_fetch_array($query_run)) {
+            while ($row = array_reverse(mysqli_fetch_array($query_run))) {
             ?>
                 <li><p><?php echo $row['news']; ?> <span><a href="<?php echo $row['link']; ?>" style="color:blue; text-decoration: underline; font-size: 24px;"> <?php echo $row['linkname']; ?> </a></span></p></li>
             <?php
