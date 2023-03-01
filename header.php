@@ -153,7 +153,7 @@
     }
 
     .topnav a:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
     color: black;
     }
 
