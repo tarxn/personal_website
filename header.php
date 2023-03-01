@@ -126,6 +126,7 @@
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
         }  
     }
+
     /* .topnav {
     overflow: hidden;
     background-color: #333;
@@ -181,7 +182,7 @@
                     <i class="fa fa-bars"></i>
                 </a> -->
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mx-auto"></div>
+                    <div class="mx-auto">
                     <ul class="navbar-nav" style="color: blue;">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Home</a>
@@ -218,6 +219,7 @@
                             <a class="nav-link" href="contact.php">Contact us</a>
                         </li>
                     </ul>
+                    </div>
                 </div>
 
         </div>
