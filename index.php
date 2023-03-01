@@ -29,29 +29,6 @@ include("header.php");
             </div>
         </div>
     </div>
-    <!-- <div class="p-5  d-flex">
-        <div class="col-left container" style="padding-bottom:1rem !important;">
-            <img class="pers_img" src="images/kavya_.JPG" class="d-inline-block">
-        </div>
-        <div class="col-right container">
-            <h2 style="font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora</h2>
-
-            <p>
-
-                Prof Kavya Dashora is on an extraordinary and multidimensional journey, ranging from microscopic to nano-scopic world. She studies different aspects of nanosynthesis, their residue, nanotoxicity, regulations and approach to green and sustainable crop production.
-                Her work also encompasses the discovery of physicochemical properties and bioprocessing of lignolytic enzymes , impact of nanoparticles on plant metabolites and microbial enzymes.
-                Her key achievement is also highlight as development of first ever plant based egg in India. She works on different aspects of plant based meats to ensure sustainable nutrition to the growing population.
-                Her work essentially involves achieving SDGs in all her projects.
-                <br>
-
-
-            </p>
-        </div>
-
-
-    </div> -->
-
-
 </div>
 <hr>
 
@@ -59,30 +36,18 @@ include("header.php");
     <h3>News and Events</h3>
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
         <marquee behavior="scroll" direction="up" scrollamount="4" style="max-height:320px ; color:blue;">
-
         <ul>
-
             <?php
-
             $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
             $db = mysqli_select_db($connection, '');
             $query = "SELECT * FROM `news`";
             $query_run = mysqli_query($connection, $query);
-
-
             while ($row = mysqli_fetch_array($query_run)) {
             ?>
-
-
-
-
-                <li><p><?php echo $row['news']; ?> </p></li>
-
+                <li><span><p><?php echo $row['news']; ?> </p> <a href="<?php echo $row['link']; ?>"><?php echo $row['linkname']; ?></a></span></li>
             <?php
             }
             ?>
-
-
 </ul>
             <br>
             <br>
