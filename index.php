@@ -44,7 +44,7 @@ include("header.php");
             $query_run = mysqli_query($connection, $query);
             while ($row = mysqli_fetch_array($query_run)) {
             ?>
-                <li><p><?php echo $row['news']; ?> </p> <span href="<?php echo $row['link']; ?>" style="color:black"> <?php echo $row['linkname']; ?> </span></li>
+                <li><p><?php echo $row['news']; ?> <span><a href="<?php echo $row['link']; ?>" style="color:black; text-decoration: underline; font-size: 40px;"> <?php echo $row['linkname']; ?> </a></span></p></li>
             <?php
             }
             ?>
