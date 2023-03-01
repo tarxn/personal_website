@@ -162,6 +162,15 @@
     background-color: #04AA6D;
     color: white;
     } */
+    .navbar-toggler {
+        padding: .15rem .50rem;
+        font-size: 2rem;
+        line-height: 1;
+        background-color: white;
+        border: 1px black;
+        border-radius: .10rem;
+        transition: box-shadow .15s ease-in-out
+    }
 </style>
 
 <body class="offcanvas-active">
