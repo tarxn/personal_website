@@ -106,9 +106,6 @@
         width: 500px;
         height:300px;
     }
-    .custom-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
     /* offcanvas-header{ display:none; }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
@@ -161,7 +158,7 @@
     }
 
     .active {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
     color: white;
     }
 </style>
