@@ -34,7 +34,7 @@ $db = mysqli_select_db($connection, '');
                 <?php
                 echo '<div class="responsive">
                 <div class="gallery">';
-                echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="600" height="400">
+                echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="1000" height="auto">
                 <div class="desc">Add a description of the image here</div>
                 </div>
                 </div>';
