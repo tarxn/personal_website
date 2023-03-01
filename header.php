@@ -208,7 +208,7 @@
     .responsive {
     padding: 0 6px;
     float: left;
-    width: 49.99999%;
+    width: 33.3%;
     }
 
     @media only screen and (max-width: 700px) {
