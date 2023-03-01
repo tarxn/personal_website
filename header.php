@@ -106,7 +106,7 @@
         width: 500px;
         height:300px;
     }
-    /* offcanvas-header{ display:none; }
+    offcanvas-header{ display:none; }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
@@ -125,10 +125,10 @@
             background-color: black;
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
         }  
-    } */
-    .topnav {
+    }
+    /* .topnav {
     overflow: hidden;
-    /* background-color: #333; */
+    background-color: #333;
     position: relative;
     }
 
@@ -160,28 +160,27 @@
     .active {
     background-color: #04AA6D;
     color: white;
-    }
+    } */
 </style>
 
 <body class="offcanvas-active">
     <!-- Navbar  -->
 
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
-        <div class="topnav container">
-            <div class="dmmy ">
+            <div class="dmmy container">
                 <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class=""  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <div class="container-fluid" id="myLinks" style="background-color: #008080; height: auto; color:#fff;">
+                </button>
+                <!-- <div class="container-fluid" id="myLinks" style="background-color: #008080; height: auto; color:#fff;">
                     <a href="#news">News</a>
                     <a href="#contact">Contact</a>
                     <a href="#about">About</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                </a>
-                <!-- <div class="collapse navbar-collapse" id="navbarNav">
+                </a> -->
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mx-auto"></div>
                     <ul class="navbar-nav" style="color: blue;">
                         <li class="nav-item">
@@ -213,13 +212,13 @@
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                             </ul>
-                        </li> -->
+                        </li>
 
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact us</a>
                         </li>
                     </ul>
-                </div> -->
-            </div>
+                </div>
+
         </div>
     </nav>
