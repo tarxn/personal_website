@@ -134,13 +134,21 @@
     <!-- Navbar  -->
 
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
-        <div class="container dmmy nav">
+        <div class="container dmmy topnav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
+            </button> -->
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!-- <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav" style="color: blue;">
                     <li class="nav-item">
@@ -178,6 +186,6 @@
                         <a class="nav-link" href="contact.php">Contact us</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
