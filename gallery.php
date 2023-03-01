@@ -32,33 +32,41 @@ $db = mysqli_select_db($connection, '');
         while ($row = mysqli_fetch_array($query_run)) {
         ?>
                 <?php
-                $sr++;
-                if ($sr%2==1)
-                {
-                    if($rowcount!=$sr)
-                    {
-                    echo '<div class="p-2 d-flex">
-                    <div class="p-2 col-left-img">';
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" >
-                    </div>';
-                    }
-                    else
-                    {
-                        echo '<div class="p-2 d-flex">
-                        <div class="p-2 col-left-img ">';
-                        echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image"  >
-                        </div>';
-                        echo '</div>';
-                    }
-                }
-                else 
-                {
-                    echo '<div class="p-2 col-right-img ">';
+                echo '<div class="responsive">
+                <div class="gallery">';
+                echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="600" height="400">
+                <div class="desc">Add a description of the image here</div>
+                </div>
+                </div>';
+                // $sr++;
+                // if ($sr%2==1)
+                // {
+                //     if($rowcount!=$sr)
+                //     {
+                //     echo '<div class="responsive">
+                //     <div class="gallery">';
+                //     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="600" height="400">
+                //     <div class="desc">Add a description of the image here</div>
+                //     </div>
+                //     </div>';
+                //     }
+                //     else
+                //     {
+                //         echo '<div class="p-2 d-flex">
+                //         <div class="p-2 col-left-img ">';
+                //         echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image"  >
+                //         </div>';
+                //         echo '</div>';
+                //     }
+                // }
+                // else 
+                // {
+                //     echo '<div class="p-2 col-right-img ">';
 
-                    echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="700px">
-                    </div>
-                    </div>';
-                }
+                //     echo '<img src="data:image;base64,' . base64_encode($row['images']) . '"  alt="Image" width="700px">
+                //     </div>
+                //     </div>';
+                // }
                 ?>
 
         <?php
