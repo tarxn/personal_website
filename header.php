@@ -128,7 +128,7 @@
     } */
     .topnav {
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
     position: relative;
     }
 
@@ -145,7 +145,7 @@
     }
 
     .topnav a.icon {
-    background: black;
+    /* background: black; */
     display: block;
     position: absolute;
     right: 0;
@@ -169,9 +169,9 @@
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
         <div class="container dmmy topnav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
             <div id="myLinks">
                 <a href="#news">News</a>
                 <a href="#contact">Contact</a>
