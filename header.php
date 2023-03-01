@@ -171,7 +171,7 @@
                     </li>
 
 
-                    <!-- <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
@@ -182,7 +182,7 @@
                         </ul>
                     </li> -->
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact us</a>
                     </li>
                 </ul>
