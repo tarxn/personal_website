@@ -10,8 +10,8 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-    <div class="card my-5 gap-5 ">
-        <div class="container mb-3" style="">
+    <div class="container-fluid card my-5 gap-5 ">
+        <div class="mb-3" style="">
             <div class="row g-0">
                 <div class="col-md-2">
                 <img src="images/kavya_.JPG" class="img-fluid rounded-start" style=" width: 220px;
