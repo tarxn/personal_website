@@ -145,7 +145,7 @@
     }
 
     .topnav a.icon {
-    /* background: black; */
+    background: black;
     display: block;
     position: absolute;
     right: 0;
@@ -153,12 +153,12 @@
     }
 
     .topnav a:hover {
-    /* background-color: #ddd; */
+    background-color: #ddd;
     color: black;
     }
 
     .active {
-    /* background-color: #04AA6D; */
+    background-color: #04AA6D;
     color: white;
     }
 </style>
