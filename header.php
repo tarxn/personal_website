@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ibarra+Real+Nova&family=Lobster+Two:wght@700&family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     .card{
@@ -108,7 +109,7 @@
     .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
-    offcanvas-header{ display:none; }
+    /* offcanvas-header{ display:none; }
     @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
@@ -127,6 +128,41 @@
             background-color: black;
             transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
         }  
+    } */
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    }
+
+    .topnav #myLinks {
+    display: none;
+    }
+
+    .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    }
+
+    .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .active {
+    background-color: #04AA6D;
+    color: white;
     }
 </style>
 
@@ -136,10 +172,9 @@
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
         <div class="container dmmy topnav">
             <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <a href="#home" class="active">Logo</a>
+            </button>
             <div id="myLinks">
                 <a href="#news">News</a>
                 <a href="#contact">Contact</a>
