@@ -35,7 +35,7 @@ include("header.php");
 <div class="container">
     <h3>News and Events</h3>
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
-        <marquee behavior="scroll" direction="up" scrollamount="4" style="max-height:320px ; color:blue;">
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="max-height:320px ; color:blue;">
         <ul>
             <?php
             $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
@@ -44,12 +44,11 @@ include("header.php");
             $query_run = mysqli_query($connection, $query);
             while ($row = mysqli_fetch_array($query_run)) {
             ?>
-                <li><p><?php echo $row['news']; ?> <span><a href="<?php echo $row['link']; ?>" style="color:black; text-decoration: underline; font-size: 40px;"> <?php echo $row['linkname']; ?> </a></span></p></li>
+                <li><p><?php echo $row['news']; ?> <span><a href="<?php echo $row['link']; ?>" style="color:blue; text-decoration: underline; font-size: 24px;"> <?php echo $row['linkname']; ?> </a></span></p></li>
             <?php
             }
             ?>
 </ul>
-            <br>
             <br>
         </marquee>
 
