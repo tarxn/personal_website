@@ -169,7 +169,7 @@
     <nav class="fixed-top navbar-expand-lg navbar scrolling-off p-md-2">
             <div class="dmmy container">
                 <h1 class="navbar-brand align-text-center text-white" href="#" style=" font-size: 30px; font-family: 'Lobster Two', cursive;">Prof. Kavya Dashora </h1>
-                <button class=""  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- <div class="container-fluid" id="myLinks" style="background-color: #008080; height: auto; color:#fff;">
