@@ -4432,12 +4432,12 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler {
-    padding: .25rem .75rem;
+    padding: .15rem .50rem;
     font-size: 2rem;
     line-height: 1;
     background-color: white;
     border: 1px black;
-    border-radius: .25rem;
+    border-radius: .10rem;
     transition: box-shadow .15s ease-in-out
 }
 
@@ -4459,8 +4459,8 @@ fieldset:disabled .btn {
 
 .navbar-toggler-icon {
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 0.5rem;
+    height: 0.5rem;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-position: center;
