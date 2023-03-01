@@ -106,7 +106,7 @@
         width: 500px;
         height:300px;
     }
-    offcanvas-header{ display:none; }
+    /* offcanvas-header{ display:none; } */
     /* @media only screen and (max-width:1000px) {
         .scrolling-active .nav {
             height: 4rem;
@@ -172,6 +172,7 @@
         transition: box-shadow .15s ease-in-out
     }
     .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         display: inline-block;
         width: 1rem;
         height: 1rem;
@@ -179,10 +180,11 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%
+
     }
-    .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-}
+    /* .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") */
+
 </style>
 
 <body class="offcanvas-active">
