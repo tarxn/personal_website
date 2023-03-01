@@ -10,25 +10,27 @@ include("header.php");
 </div>
 
 <!-- Main Content Area -->
-<div class="container-fluid card my-5 gap-5 ">
-<div class="card mb-3" style="">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="images/kavya_.JPG" class="img-fluid rounded-start" alt="...">
+    <div class="card my-5 gap-5 ">
+        <div class="container mb-3" style="">
+            <div class="row g-0">
+                <div class="col-md-2">
+                <img src="images/kavya_.JPG" class="img-fluid rounded-start" style=" width: 220px;
+                height: auto; padding-top:3rem;" alt="...">
+                </div>
+                <div class="col-md-10">
+                <div class="card-body">
+                    <h2 class="card-title">Prof. Kavya Dashora</h2>
+                    <p class="card-text">Prof Kavya Dashora is on an extraordinary and multidimensional journey, ranging from microscopic to nano-scopic world. She studies different aspects of nanosynthesis, their residue, nanotoxicity, regulations and approach to green and sustainable crop production.
+                            Her work also encompasses the discovery of physicochemical properties and bioprocessing of lignolytic enzymes , impact of nanoparticles on plant metabolites and microbial enzymes.
+                            Her key achievement is also highlight as development of first ever plant based egg in India. She works on different aspects of plant based meats to ensure sustainable nutrition to the growing population.
+                            Her work essentially involves achieving SDGs in all her projects.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Prof. Kavya Dashora</h5>
-        <p class="card-text">Prof Kavya Dashora is on an extraordinary and multidimensional journey, ranging from microscopic to nano-scopic world. She studies different aspects of nanosynthesis, their residue, nanotoxicity, regulations and approach to green and sustainable crop production.
-                Her work also encompasses the discovery of physicochemical properties and bioprocessing of lignolytic enzymes , impact of nanoparticles on plant metabolites and microbial enzymes.
-                Her key achievement is also highlight as development of first ever plant based egg in India. She works on different aspects of plant based meats to ensure sustainable nutrition to the growing population.
-                Her work essentially involves achieving SDGs in all her projects.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-    <div class="p-5  d-flex">
+    <!-- <div class="p-5  d-flex">
         <div class="col-left container" style="padding-bottom:1rem !important;">
             <img class="pers_img" src="images/kavya_.JPG" class="d-inline-block">
         </div>
@@ -48,7 +50,7 @@ include("header.php");
         </div>
 
 
-    </div>
+    </div> -->
 
 
 </div>
