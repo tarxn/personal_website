@@ -32,7 +32,7 @@ include("header.php");
 </div>
 <hr>
 
-<div class="container">
+<div class="">
     <h3>News and Events</h3>
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
         <marquee behavior="scroll" direction="up" scrollamount="2" style="max-height:320px ; color:blue;">
