@@ -33,9 +33,10 @@ include("header.php");
 <hr>
 
 <div class="">
-    <h3>News and Events</h3>
+    
     <div class="p-5 my-5 border_card" style="max-height:380px ;">
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="max-height:320px ; color:blue;">
+    <h3>News and Events</h3>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="max-height:320px ; color:blue;">
         <ul>
             <?php
             $connection = mysqli_connect("localhost", "u731109599_kavyadb", "bUH:OXI9GZ]9", "u731109599_kavyadb");
@@ -54,7 +55,7 @@ include("header.php");
 
 
     </div>
-    <div class="container p-5 my-5 border_card">
+    <div class="container-fluid p-5 my-5 border_card">
 
         <p> A <span class="first-word" style="font-family: 'DM Serif Display', Regular;"> Journey </span>
             from tiny hands on the globe to a giant leap across the planet……….
@@ -71,13 +72,13 @@ include("header.php");
 
 
 
-    <div class="container p-5 my-5 border_card">
+    <div class="container-fluid p-5 my-5 border_card">
         <h3>Education</h3>
         <p style="font-size: 20px;">
             Prof Dashora completed her PhD from prestigious Central Arid Zone Research Institute (CAZRI-ICAR) on developing low-cost biocontrol solutions for pearl millet smut caused by Tolyposporium penicillarie
         </p>
     </div>
-    <div class="container p-5 my-5 border_card">
+    <div class="container-fluid p-5 my-5 border_card">
         <h3>Skills</h3>
         <p>
             <span style="font-size:22px; font-weight: 500;">Nanotechnology:</span>
@@ -109,7 +110,7 @@ include("header.php");
         </p>
     </div>
 
-    <div class="container p-5 my-5 border_card">
+    <div class="container-fluid p-5 my-5 border_card">
         <h3>FROM VISITING UNDERNOURISHED COUNTRIES TO DEVELOPING PLANT BASED PROTEINS FOR SUSTAINABLE NUTRITION</h3>
         <p>
             Prof Dashora did food security and plant protection work in mostly developing and underdeveloped countries where availability and accessibility of food was a constant concern in all age groups. She explored the local, low cost options of proteins having similarities with animal proteins and is credited with the development of first ever plant based egg. Her further research is ongoing on developing other mock meat products from plants. For this achievement, she was conferred upon both National and International awards.
