@@ -33,7 +33,7 @@
             <!--Grid column-->
             <div class="col-lg-2 my-4 col-md-6 mb-4 mb-md-0">
 
-                <img src="https://scai.iitd.ac.in/iitd_logo.png" alt="logo" width="auto" height="145" class="d-inline-block align-text-center">
+                <img src="https://crf.iitd.ac.in/images/IITLogoWhiteShadow.png" alt="logo" width="auto" height="145" class="d-inline-block align-text-center">
 
             </div>
             <!--Grid column-->
